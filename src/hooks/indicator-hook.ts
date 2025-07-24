@@ -1,20 +1,16 @@
 import {Indicator, IndicatorDefinition} from '@/types/indicator';
+import definitions from '@/data/definitions.json';
 
 function getDefinition(id: string): IndicatorDefinition {
   if (!id) {
     throw new Error('Indicator ID is required');
   }
 
-  return {
-    id: 'I01',
-    name: 'Idade Média do Pendente de Julgamento',
-    quartiles: {
-      first: 0.2,
-      second: 0.5,
-      third: 0.7
-    },
-    weight: 3
-  };
+  const indicator = definitions.indicators.find((def) => def.id === id);
+  if (!indicator) {
+    throw new Error(`Indicator definition not found for id: ${id}`);
+  }
+  return indicator as IndicatorDefinition;
 }
 
 export default function useIndicator(indicator: Indicator) {

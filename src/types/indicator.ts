@@ -12,10 +12,14 @@ export class Indicator {
   initialValue: number;
   currentValue: number;
 
-  constructor(id: string, initialValue: number, currentValue: number) {
+  constructor(id: string, initialValue: number) {
     this.id = id;
     this.initialValue = initialValue;
-    this.currentValue = currentValue;
+    this.currentValue = initialValue;
+  }
+
+  setCurrentValue(value: number) {
+    this.currentValue = value;
   }
 
   getQuartile(definition: IndicatorDefinition) {

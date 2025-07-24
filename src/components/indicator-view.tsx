@@ -30,6 +30,7 @@ export default function IndicatorView({igest, indicator}: IndicatorViewProps) {
   const [colorClass, setColorClass] = useState(getColorClass('green'));
 
   function setValueAndColor(newValue: number) {
+    indicator.setCurrentValue(newValue);
     setValue(newValue);
     const quartile = indicator.getQuartile(definition);
     const color = quartileColors[quartile];
@@ -40,6 +41,9 @@ export default function IndicatorView({igest, indicator}: IndicatorViewProps) {
     <div className={cn('flex flex-col rounded-md p-2 w-full', colorClass)}>
       <span className={cn('text-sm font-bold pb-1', colorClass)}>
         {`${definition.id} - ${definition.name}`}
+      </span>
+      <span className={cn('text-sm font-bold pb-1', colorClass)}>
+        {`- Peso: ${definition.weight}%`}
       </span>
       <div>
         <div className="flex flex-row items-center justify-center space-x-4">
