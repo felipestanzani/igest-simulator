@@ -1,0 +1,64 @@
+{
+    "indicators": [
+        {
+            "id": "I01",
+            "name": "Idade Média do Pendente de Julgamento",
+            "weight": 3
+        },
+        {
+            "id": "I02",
+            "name": "Pendentes",
+            "weight": 4
+        },
+        {
+            "id": "I03",
+            "name": "Taxa de Conclusos com o Prazo Vencido",
+            "weight": 3
+        },
+        {
+            "id": "I04",
+            "name": "Prazo Médio na Fase de Conhecimento",
+            "weight": 6
+        },
+        {
+            "id": "I05",
+            "name": "Prazo Médio na Fase de Cumprimento de Sentença",
+            "weight": 4
+        },
+        {
+            "id": "I06",
+            "name": "Taxa de Conciliação",
+            "weight": 3
+        },
+        {
+            "id": "I07",
+            "name": "Taxa de Solução",
+            "weight": 4
+        },
+        {
+            "id": "I08",
+            "name": "Taxa de Congest. na Fase de Conhecimento",
+            "weight": 5
+        },
+        {
+            "id": "I09",
+            "name": "Taxa de Congest. na Fase de Cumprimento de Sentença",
+            "weight": 5
+        },
+        {
+            "id": "I10",
+            "name": "Produtividade por Servidor",
+            "weight": 5
+        },
+        {
+            "id": "I11",
+            "name": "Pendentes por Servidor",
+            "weight": 5
+        },
+        {
+            "id": "I12",
+            "name": "Taxa de Extinção",
+            "weight": 3
+        }
+    ]
+}
