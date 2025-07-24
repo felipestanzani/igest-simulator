@@ -4,7 +4,7 @@ import {Igest} from '@/types/igest';
 import {Quartile} from '@/types/quartile';
 
 export default function useIgest() {
-  const [igest, setIgest] = useState<Igest | null>(null);
+  const [igestRef, setIgestRef] = useState<Igest | null>(null);
 
   useEffect(() => {
     const quartiles: Quartile = {
@@ -13,8 +13,8 @@ export default function useIgest() {
       third: igestData.quartiles.third
     };
     const igestObj = new Igest(igestData.value, quartiles);
-    setIgest(igestObj);
+    setIgestRef(igestObj);
   }, []);
 
-  return {igest};
+  return {igestRef};
 }

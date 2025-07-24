@@ -49,7 +49,12 @@ export default function IndicatorView({igest, indicator}: IndicatorViewProps) {
   }
 
   return (
-    <div className={cn('flex flex-col rounded-md p-2 w-full', colorClass)}>
+    <div
+      className={cn(
+        'flex flex-col rounded-md p-1 pl-2 pr-2 w-full',
+        colorClass
+      )}
+    >
       <div className="flex flex-row items-center justify-between">
         <span className={cn('text-xs font-bold pb-1', colorClass)}>
           {`${definition.id} - ${definition.name}`}

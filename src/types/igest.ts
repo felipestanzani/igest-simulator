@@ -9,7 +9,7 @@ export class Igest {
     this.quartile = quartiles;
   }
 
-  getQuartile() {
+  public getQuartile() {
     if (this.value > this.quartile.third) {
       return 'third';
     } else if (this.value > this.quartile.second) {
