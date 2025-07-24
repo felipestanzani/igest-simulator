@@ -11,28 +11,26 @@ export class Indicator {
   id: string;
   initialValue: number;
   currentValue: number;
-  igest: number;
-  definition: IndicatorDefinition;
 
-  constructor(
-    id: string,
-    initialValue: number,
-    currentValue: number,
-    igest: number,
-    definition: IndicatorDefinition
-  ) {
+  constructor(id: string, initialValue: number, currentValue: number) {
     this.id = id;
     this.initialValue = initialValue;
     this.currentValue = currentValue;
-    this.igest = igest;
-    this.definition = definition;
   }
 
-  getImpact() {
-    return (
-      (this.initialValue * this.definition.weight) /
-      0.5 /
-      this.igest
-    ).toFixed(2);
+  getQuartile(definition: IndicatorDefinition) {
+    if (this.currentValue > definition.quartiles.third) {
+      return 'third';
+    } else if (this.currentValue > definition.quartiles.second) {
+      return 'second';
+    } else if (this.currentValue > definition.quartiles.first) {
+      return 'first';
+    } else {
+      return 'fourth';
+    }
+  }
+
+  getImpact(definition: IndicatorDefinition, igest: number) {
+    return ((this.initialValue * definition.weight) / 0.5 / igest).toFixed(2);
   }
 }

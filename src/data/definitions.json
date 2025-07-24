@@ -3,62 +3,122 @@
         {
             "id": "I01",
             "name": "Idade Média do Pendente de Julgamento",
-            "weight": 3
+            "weight": 3,
+            "quartiles": {
+                "first": 0.3279518520250145,
+                "second": 0.4541997424093715,
+                "third": 0.596771111215009
+            }
         },
         {
             "id": "I02",
             "name": "Pendentes",
-            "weight": 4
+            "weight": 4,
+            "quartiles": {
+                "first": 0.26543962745315425,
+                "second": 0.4104224415123625,
+                "third": 0.5592637764718925
+            }
         },
         {
             "id": "I03",
             "name": "Taxa de Conclusos com o Prazo Vencido",
-            "weight": 3
+            "weight": 3,
+            "quartiles": {
+                "first": 0,
+                "second": 0,
+                "third": 0.40000000000000024
+            }
         },
         {
             "id": "I04",
             "name": "Prazo Médio na Fase de Conhecimento",
-            "weight": 6
+            "weight": 6,
+            "quartiles": {
+                "first": 0.2533560466847945,
+                "second": 0.3685626401487605,
+                "third": 0.5520136280108765
+            }
         },
         {
             "id": "I05",
             "name": "Prazo Médio na Fase de Cumprimento de Sentença",
-            "weight": 4
+            "weight": 4,
+            "quartiles": {
+                "first": 0.3750000000000005,
+                "second": 0.482795057921528,
+                "third": 0.625
+            }
         },
         {
             "id": "I06",
             "name": "Taxa de Conciliação",
-            "weight": 3
+            "weight": 3,
+            "quartiles": {
+                "first": 0.3750000000000002,
+                "second": 0.503259582928145,
+                "third": 0.6249999999999998
+            }
         },
         {
             "id": "I07",
             "name": "Taxa de Solução",
-            "weight": 4
+            "weight": 4,
+            "quartiles": {
+                "first": 0.3750000000000002,
+                "second": 0.504355286037075,
+                "third": 0.6249999999999994
+            }
         },
         {
             "id": "I08",
             "name": "Taxa de Congest. na Fase de Conhecimento",
-            "weight": 5
+            "weight": 5,
+            "quartiles": {
+                "first": 0.3749999999999998,
+                "second": 0.492345427316278,
+                "third": 0.6249999999999998
+            }
         },
         {
             "id": "I09",
             "name": "Taxa de Congest. na Fase de Cumprimento de Sentença",
-            "weight": 5
+            "weight": 5,
+            "quartiles": {
+                "first": 0.3749999999999998,
+                "second": 0.49970405925136,
+                "third": 0.6250000000000002
+            }
         },
         {
             "id": "I10",
             "name": "Produtividade por Servidor",
-            "weight": 5
+            "weight": 5,
+            "quartiles": {
+                "first": 0.3750000000000005,
+                "second": 0.5190643863179075,
+                "third": 0.6249999999999998
+            }
         },
         {
             "id": "I11",
             "name": "Pendentes por Servidor",
-            "weight": 5
+            "weight": 5,
+            "quartiles": {
+                "first": 0.28441064177607,
+                "second": 0.4238274446721565,
+                "third": 0.5706463850656422
+            }
         },
         {
             "id": "I12",
             "name": "Taxa de Extinção",
-            "weight": 3
+            "weight": 3,
+            "quartiles": {
+                "first": 0.3749999999999997,
+                "second": 0.5060801233195215,
+                "third": 0.625
+            }
         }
     ]
 }

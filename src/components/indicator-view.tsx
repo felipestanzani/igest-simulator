@@ -4,12 +4,16 @@ import {Slider} from '@/components/ui/slider';
 import {useState} from 'react';
 import {cn} from '@/lib/utils';
 import {Input} from './ui/input';
+import {Quartile} from '@/types/quartile';
 
 interface IndicatorViewProps {
+  igest: number;
   indicator: Indicator;
 }
 
-const quartileColors = {
+type QuartileKey = keyof Quartile | 'fourth';
+
+const quartileColors: Record<QuartileKey, string> = {
   first: 'green',
   second: 'amber',
   third: 'red',
@@ -20,22 +24,16 @@ function getColorClass(color: string) {
   return `bg-${color}-100 text-${color}-800`;
 }
 
-export default function IndicatorView({indicator}: IndicatorViewProps) {
+export default function IndicatorView({igest, indicator}: IndicatorViewProps) {
   const {definition} = useIndicator(indicator);
   const [value, setValue] = useState(indicator.initialValue);
   const [colorClass, setColorClass] = useState(getColorClass('green'));
 
   function setValueAndColor(newValue: number) {
     setValue(newValue);
-    if (newValue > definition.quartiles.third) {
-      setColorClass(getColorClass(quartileColors.third));
-    } else if (newValue > definition.quartiles.second) {
-      setColorClass(getColorClass(quartileColors.second));
-    } else if (newValue > definition.quartiles.first) {
-      setColorClass(getColorClass(quartileColors.first));
-    } else {
-      setColorClass(getColorClass(quartileColors.fourth));
-    }
+    const quartile = indicator.getQuartile(definition);
+    const color = quartileColors[quartile];
+    setColorClass(getColorClass(color));
   }
 
   return (
@@ -55,7 +53,9 @@ export default function IndicatorView({indicator}: IndicatorViewProps) {
               </div>
               <div className="flex flex-col items-center justify-center w-18">
                 <span className="text-sm font-bold">Impacto</span>
-                <span className="text-sm">{indicator.getImpact() + '%'}</span>
+                <span className="text-sm">
+                  {indicator.getImpact(definition, igest) + '%'}
+                </span>
               </div>
             </div>
           </div>
