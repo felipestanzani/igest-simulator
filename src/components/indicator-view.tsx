@@ -1,5 +1,5 @@
 import useIndicator from '@/hooks/indicator-hook';
-import {Indicator} from '@/types/indicator';
+import {Indicator, IndicatorDefinition} from '@/types/indicator';
 import {Slider} from '@/components/ui/slider';
 import {useState} from 'react';
 import {cn} from '@/lib/utils';
@@ -20,6 +20,15 @@ const quartileColors: Record<QuartileKey, string> = {
   fourth: 'blue'
 };
 
+function getColorByValue(
+  indicator: Indicator,
+  definition: IndicatorDefinition
+) {
+  const quartile = indicator.getQuartile(definition);
+  const color = quartileColors[quartile];
+  return getColorClass(color);
+}
+
 function getColorClass(color: string) {
   return `bg-${color}-100 text-${color}-800`;
 }
@@ -27,7 +36,9 @@ function getColorClass(color: string) {
 export default function IndicatorView({igest, indicator}: IndicatorViewProps) {
   const {definition} = useIndicator(indicator);
   const [value, setValue] = useState(indicator.initialValue);
-  const [colorClass, setColorClass] = useState(getColorClass('green'));
+  const [colorClass, setColorClass] = useState(
+    getColorByValue(indicator, definition)
+  );
 
   function setValueAndColor(newValue: number) {
     indicator.setCurrentValue(newValue);
@@ -39,30 +50,31 @@ export default function IndicatorView({igest, indicator}: IndicatorViewProps) {
 
   return (
     <div className={cn('flex flex-col rounded-md p-2 w-full', colorClass)}>
-      <span className={cn('text-sm font-bold pb-1', colorClass)}>
-        {`${definition.id} - ${definition.name}`}
-      </span>
-      <span className={cn('text-sm font-bold pb-1', colorClass)}>
-        {`- Peso: ${definition.weight}%`}
-      </span>
+      <div className="flex flex-row items-center justify-between">
+        <span className={cn('text-xs font-bold pb-1', colorClass)}>
+          {`${definition.id} - ${definition.name}`}
+        </span>
+        <span className={cn('text-xs font-bold pb-1', colorClass)}>
+          {`Peso: ${definition.weight}`}
+        </span>
+      </div>
       <div>
         <div className="flex flex-row items-center justify-center space-x-4">
-          <div className="flex flex-col items-center justify-center bg-black/5 rounded-md p-1 space-x-2">
-            <div className="flex flex-row items-center justify-center">
-              <div className="flex flex-col items-center justify-center w-14">
-                <span className="text-sm font-bold">Valor</span>
-                <span className="text-sm">
-                  {indicator.initialValue.toFixed(3)}
-                </span>
-              </div>
-              <div className="flex flex-col items-center justify-center w-18">
-                <span className="text-sm font-bold">Impacto</span>
-                <span className="text-sm">
-                  {indicator.getImpact(definition, igest) + '%'}
-                </span>
-              </div>
+          <div className="flex flex-row items-center justify-center">
+            <div className="flex flex-col items-center justify-center w-14">
+              <span className="text-xs">Valor</span>
+              <span className="text-xs font-bold">
+                {indicator.initialValue.toFixed(3)}
+              </span>
+            </div>
+            <div className="flex flex-col items-center justify-center w-18">
+              <span className="text-xs">Impacto</span>
+              <span className="text-xs font-bold">
+                {indicator.getImpact(definition, igest) + '%'}
+              </span>
             </div>
           </div>
+
           <Slider
             min={0}
             max={1}
