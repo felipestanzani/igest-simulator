@@ -1,7 +1,6 @@
 import useIndicator from '@/hooks/indicator-hook';
 import {Indicator, IndicatorDefinition} from '@/types/indicator';
 import {Slider} from '@/components/ui/slider';
-import {useState} from 'react';
 import {cn} from '@/lib/utils';
 import {Input} from './ui/input';
 import {Quartile} from '@/types/quartile';
@@ -9,6 +8,8 @@ import {Quartile} from '@/types/quartile';
 interface IndicatorViewProps {
   igest: number;
   indicator: Indicator;
+  value: number;
+  onValueChange: (value: number) => void;
 }
 
 type QuartileKey = keyof Quartile | 'fourth';
@@ -33,17 +34,27 @@ function getColorClass(color: string) {
   return `bg-${color}-100 text-${color}-800`;
 }
 
-export default function IndicatorView({igest, indicator}: IndicatorViewProps) {
+export default function IndicatorView({
+  igest,
+  indicator,
+  value,
+  onValueChange
+}: IndicatorViewProps) {
   const {definition} = useIndicator(indicator);
-  const [value, setValue] = useState(indicator.initialValue);
-  const [colorClass, setColorClass] = useState(
-    getColorByValue(indicator, definition)
+  // Remove local value state, use prop instead
+  // Remove local colorClass state, recalculate on render
+  // Fix: clone indicator and set value for color calculation
+  const indicatorWithValue = Object.create(
+    Object.getPrototypeOf(indicator),
+    Object.getOwnPropertyDescriptors(indicator)
   );
+  indicatorWithValue.value = value;
+  const colorClass = getColorByValue(indicatorWithValue, definition);
 
   function setValueAndColor(newValue: number) {
-    indicator.setCurrentValue(newValue);
-    setValue(newValue);
-    setColorClass(getColorByValue(indicator, definition));
+    onValueChange(newValue);
+    // indicator.setCurrentValue is now handled in App
+    // setValue and setColorClass are not needed
   }
 
   return (

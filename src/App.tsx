@@ -8,7 +8,7 @@ import {
   SelectTrigger,
   SelectValue
 } from '@/components/ui/select';
-import {useState} from 'react';
+import {useState, useMemo} from 'react';
 import IgestView from '@/components/igest-view';
 import {Igest} from '@/types/igest';
 import Legend from '@/components/legend';
@@ -19,15 +19,40 @@ export default function App() {
   const {igestQuartiles} = useIgest();
   const [selectedCourt, setSelectedCourt] = useState<Court | null>(null);
   const [igest, setIgest] = useState<Igest | null>(null);
+  // New: state for indicator values
+  const [indicatorValues, setIndicatorValues] = useState<
+    Record<string, number>
+  >({});
 
   function handleCourtChange(courtId: string) {
     const court = getCourt(Number(courtId));
     setSelectedCourt(court);
-
     if (court) {
       setIgest(court.igest);
+      // Reset indicator values for new court
+      const values: Record<string, number> = {};
+      court.indicators.forEach((indicator) => {
+        values[indicator.id] = indicator.initialValue;
+      });
+      setIndicatorValues(values);
     }
   }
+
+  // New: update indicator value in state
+  function handleIndicatorValueChange(indicatorId: string, value: number) {
+    setIndicatorValues((prev) => ({...prev, [indicatorId]: value}));
+  }
+
+  // New: update indicators' values before calculating simulated IGEST
+  const simulatedIgest = useMemo(() => {
+    if (!selectedCourt) return null;
+    selectedCourt.indicators.forEach((indicator) => {
+      if (indicatorValues[indicator.id] !== undefined) {
+        indicator.setCurrentValue(indicatorValues[indicator.id]);
+      }
+    });
+    return selectedCourt.getSimulatedIgest();
+  }, [selectedCourt, indicatorValues]);
 
   return (
     <div className="flex flex-col items-center justify-center h-screen space-y-8">
@@ -35,10 +60,10 @@ export default function App() {
         {selectedCourt?.igest && igest && igestQuartiles && (
           <IgestView title="IGEST" igest={igest} quartile={igestQuartiles} />
         )}
-        {selectedCourt && igestQuartiles && (
+        {selectedCourt && igestQuartiles && simulatedIgest && (
           <IgestView
             title="IGEST Simulado"
-            igest={selectedCourt.getSimulatedIgest()}
+            igest={simulatedIgest}
             quartile={igestQuartiles}
           />
         )}
@@ -51,7 +76,11 @@ export default function App() {
           />
           <Legend />
         </div>
-        <Indicators selectedCourt={selectedCourt} />
+        <Indicators
+          selectedCourt={selectedCourt}
+          indicatorValues={indicatorValues}
+          onIndicatorValueChange={handleIndicatorValueChange}
+        />
       </div>
     </div>
   );
@@ -80,7 +109,15 @@ function CourtSelector({
   );
 }
 
-function Indicators({selectedCourt}: {selectedCourt: Court | null}) {
+function Indicators({
+  selectedCourt,
+  indicatorValues,
+  onIndicatorValueChange
+}: {
+  selectedCourt: Court | null;
+  indicatorValues: Record<string, number>;
+  onIndicatorValueChange: (indicatorId: string, value: number) => void;
+}) {
   return (
     <div className="flex flex-col items-left justify-center w-2xl space-y-1">
       {selectedCourt &&
@@ -89,6 +126,10 @@ function Indicators({selectedCourt}: {selectedCourt: Court | null}) {
             key={indicator.id + selectedCourt.id.toString()}
             indicator={indicator}
             igest={selectedCourt.igest.value}
+            value={indicatorValues[indicator.id] ?? indicator.initialValue}
+            onValueChange={(value: number) =>
+              onIndicatorValueChange(indicator.id, value)
+            }
           />
         ))}
     </div>
