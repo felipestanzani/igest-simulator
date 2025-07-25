@@ -148,7 +148,10 @@ function SimulatedIndicators({
   selectedCourt: Court | null;
   indicatorValues: Record<string, number>;
 }) {
-  const [parent] = useAutoAnimate();
+  const [parent] = useAutoAnimate({
+    duration: 300,
+    easing: 'ease-in-out'
+  });
   if (!selectedCourt) return null;
   const sortedIndicators = [...selectedCourt.indicators].sort((a, b) => {
     const aValue = indicatorValues[a.id] ?? a.initialValue;
@@ -162,7 +165,7 @@ function SimulatedIndicators({
   return (
     <div
       ref={parent}
-      className="flex flex-col items-left justify-center w-2xl space-y-1"
+      className="flex flex-col items-left justify-center w-2xl space-y-3.5"
     >
       {sortedIndicators.map((indicator) => (
         <SimulatedIndicatorView
