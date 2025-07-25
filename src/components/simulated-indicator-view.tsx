@@ -47,7 +47,7 @@ export default function SimulatedIndicatorView({
   return (
     <div
       className={cn(
-        'flex flex-col rounded-md p-1 pl-2 pr-2 w-full',
+        'flex flex-col rounded-md p-1 pl-2 pr-2 w-full transition-transform duration-300',
         colorClass
       )}
     >

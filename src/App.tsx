@@ -14,6 +14,7 @@ import {Igest} from '@/types/igest';
 import Legend from '@/components/legend';
 import useCourts, {getCourt} from '@/hooks/court-hook';
 import SimulatedIndicatorView from './components/simulated-indicator-view';
+import {useAutoAnimate} from '@formkit/auto-animate/react';
 
 export default function App() {
   const {courts} = useCourts();
@@ -147,6 +148,7 @@ function SimulatedIndicators({
   selectedCourt: Court | null;
   indicatorValues: Record<string, number>;
 }) {
+  const [parent] = useAutoAnimate();
   if (!selectedCourt) return null;
   const sortedIndicators = [...selectedCourt.indicators].sort((a, b) => {
     const aValue = indicatorValues[a.id] ?? a.initialValue;
@@ -158,7 +160,10 @@ function SimulatedIndicators({
     return bImpact - aImpact;
   });
   return (
-    <div className="flex flex-col items-left justify-center w-2xl space-y-1">
+    <div
+      ref={parent}
+      className="flex flex-col items-left justify-center w-2xl space-y-1"
+    >
       {sortedIndicators.map((indicator) => (
         <SimulatedIndicatorView
           key={indicator.id + selectedCourt.id.toString()}
