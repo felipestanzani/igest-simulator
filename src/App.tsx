@@ -30,14 +30,14 @@ export default function App() {
   }
 
   return (
-    <div className="flex flex-col items-center justify-center h-screen space-y-2">
-      <div className="flex flex-row items-center justify-center">
+    <div className="flex flex-col items-center justify-center h-screen space-y-8">
+      <div className="flex flex-row items-center justify-center space-x-4">
         {selectedCourt?.igest && igest && igestQuartiles && (
           <IgestView title="IGEST" igest={igest} quartile={igestQuartiles} />
         )}
         {selectedCourt && igestQuartiles && (
           <IgestView
-            title="IGEST"
+            title="IGEST Simulado"
             igest={selectedCourt.getSimulatedIgest()}
             quartile={igestQuartiles}
           />

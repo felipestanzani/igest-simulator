@@ -1,15 +1,32 @@
-# React Boilerplate
+# IGEST Simulator
 
-A modern React boilerplate powered by Vite and TypeScript. This template provides a clean, minimal starting point for building scalable React applications with best practices and a simple, organized file structure.
+A React single-page application (SPA) to help the Brazilian labor justice system simulate the IGEST index. The app allows users to select a court, adjust indicator values, and instantly see how these changes affect the IGEST value for that court.
+
+## Project Purpose
+
+The IGEST Simulator is designed to:
+
+- Provide an interactive tool for simulating the IGEST (Índice de Gestão do Tribunal) index.
+- Allow users to explore how changes in various performance indicators impact the overall IGEST score for a court.
+- Support decision-making and analysis for court management and improvement.
 
 ## Features
 
-- ⚡️ Fast development with [Vite](https://vitejs.dev/)
-- 🛡️ Type safety with [TypeScript](https://www.typescriptlang.org/)
-- 📦 Package management with [pnpm](https://pnpm.io/) (compatible with npm/yarn)
-- ✨ Pre-configured ESLint + Prettier Molindo for code quality
-- 💅 Tailwind styles
-- 🧩 Shadcn/ui components
+- ⚖️ Select a court and view its current IGEST value and indicators
+- 🎚️ Adjust indicator values using sliders or numeric inputs
+- 🔄 Instantly see the recalculated (simulated) IGEST value as you change indicators
+- 📊 Visual feedback with color-coded quartiles for IGEST and indicators
+- 📝 View indicator weights and their impact on the IGEST
+- 💅 Modern UI with Tailwind CSS and shadcn/ui components
+- ⚡️ Fast development with Vite and TypeScript
+
+## Current Implementation Status
+
+- [x] Court selection and indicator loading from data files
+- [x] Real-time IGEST simulation as indicators are adjusted
+- [x] Color-coded display for IGEST and indicators based on quartiles
+- [x] User interface for adjusting indicator values (slider and input)
+- [x] Data-driven: courts, indicators, definitions, and quartiles loaded from JSON
 
 ## Getting Started
 
@@ -69,20 +86,18 @@ yarn preview
 ## Project Structure
 
 ```
-react-boilerplate/
+igest-simulator/
 ├── public/                # Static assets
-│   └── vite.svg
 ├── src/
 │   ├── assets/            # Images and static resources
-│   │   └── react.svg
-│   ├── components/        # Reusable React components
-│   │   └── ui/            # UI primitives (Button, Card, Input, etc.)
+│   ├── components/        # React components (IGEST, indicators, UI)
+│   ├── data/              # JSON data for courts, indicators, etc.
+│   ├── hooks/             # Custom React hooks for data and logic
 │   ├── lib/               # Utility functions
-│   │   └── utils.ts
+│   ├── types/             # TypeScript types and models
 │   ├── App.tsx            # Main app component
 │   ├── index.css          # Global styles
-│   ├── main.tsx           # Entry point
-│   └── vite-env.d.ts      # Vite environment types
+│   └── main.tsx           # Entry point
 ├── index.html             # HTML template
 ├── package.json           # Project metadata and scripts
 ├── tsconfig*.json         # TypeScript configuration
@@ -102,7 +117,7 @@ Common scripts available in `package.json`:
 
 ## Contributing
 
-Feel free to fork this repo and submit pull requests. Issues and suggestions are welcome!
+Contributions, issues, and suggestions are welcome! Feel free to fork this repo and submit pull requests.
 
 ## License
 

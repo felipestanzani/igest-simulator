@@ -1,0 +1,42 @@
+---
+alwaysApply: true
+---
+
+# General Project Rules for IGEST Simulator
+
+## 1. Project Structure
+
+- Organize code by feature: components, hooks, data, types, and utilities each have their own directory under `src/`.
+- Place all static and data-driven resources (courts, indicators, definitions, quartiles) in `src/data/` as JSON files for easy updates and extension.
+- UI elements (Button, Card, Input, etc.) should be implemented as reusable components in `src/components/ui/`.
+
+## 2. Data Flow and State Management
+
+- Load all court, indicator, and definition data from JSON files to keep the app data-driven and maintainable.
+- Use custom React hooks (`src/hooks/`) to encapsulate logic for loading and managing courts, indicators, and IGEST quartiles.
+- When adding new courts or indicators, update the relevant JSON files only—no code changes should be required for basic data updates.
+
+## 3. Component Design
+
+- Main display components (e.g., IGEST view, Indicator view) should be stateless where possible, receiving all data via props.
+- Use color-coded visual feedback for quartile-based performance, leveraging quartile data from JSON.
+- All user interactions (e.g., adjusting indicator values) should provide instant feedback and update the simulated IGEST in real time.
+
+## 4. Extensibility
+
+- To add a new indicator or court, update the corresponding JSON files in `src/data/` and ensure definitions and quartiles are provided.
+- New UI elements should be added to `src/components/ui/` and follow the styling conventions (Tailwind CSS, shadcn/ui).
+- All new TypeScript types or models should be placed in `src/types/`.
+
+## 5. Documentation and Best Practices
+
+- Keep the README.md up to date with new features, data structure changes, and setup instructions.
+- Document all new components, hooks, and utilities with clear comments and usage examples where appropriate.
+- Follow TypeScript best practices for type safety and maintainability.
+- Use semantic and descriptive naming for all files, components, and variables.
+
+## 6. Visual and User Experience
+
+- Maintain a modern, clean UI using Tailwind CSS and shadcn/ui components.
+- Ensure all interactive elements provide immediate, visible feedback to the user.
+- Use color and layout consistently to indicate performance and status (e.g., quartile colors for IGEST and indicators).
