@@ -84,7 +84,7 @@ export default function IndicatorView({
             <div className="flex flex-col items-center justify-center w-18">
               <span className="text-xs">Impacto</span>
               <span className="text-xs font-bold">
-                {indicator.getImpact(igest) + '%'}
+                {indicator.getInitialImpact(igest) + '%'}
               </span>
             </div>
           </div>

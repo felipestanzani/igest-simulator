@@ -31,4 +31,12 @@ export class Indicator extends AbstractIndicator {
   getImpact(igest: number) {
     return ((this.getTotalValue() * 100) / 5 / igest).toFixed(2);
   }
+
+  getInitialTotalValue() {
+    return this.initialValue * (this.weight / 10);
+  }
+
+  getInitialImpact(igest: number) {
+    return ((this.getInitialTotalValue() * 100) / 5 / igest).toFixed(2);
+  }
 }
