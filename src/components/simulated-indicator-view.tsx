@@ -54,7 +54,7 @@ export default function SimulatedIndicatorView({
           <div className="flex flex-col items-center justify-center w-14">
             <span className="text-xs">Valor</span>
             <span className="text-xs font-bold">
-              {indicator.initialValue.toFixed(3)}
+              {indicator.value.toFixed(3)}
             </span>
           </div>
           <div className="flex flex-row items-center justify-center w-30 space-x-2">
