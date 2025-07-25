@@ -50,7 +50,7 @@ export default function SimulatedIndicatorView({
         <span className={cn('text-md font-bold pb-1', colorClass)}>
           {`${definition.id} - ${definition.name}`}
         </span>
-        <div className="flex flex-row items-center justify-center space-x-4">
+        <div className="flex flex-row items-center justify-center space-x-2">
           <div className="flex flex-col items-center justify-center w-14">
             <span className="text-xs">Valor</span>
             <span className="text-xs font-bold">

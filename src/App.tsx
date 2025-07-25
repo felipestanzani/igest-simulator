@@ -165,7 +165,7 @@ function SimulatedIndicators({
   return (
     <div
       ref={parent}
-      className="flex flex-col items-left justify-center w-2xl space-y-3.5"
+      className="flex flex-col items-left justify-center w-2xl space-y-4"
     >
       {sortedIndicators.map((indicator) => (
         <SimulatedIndicatorView

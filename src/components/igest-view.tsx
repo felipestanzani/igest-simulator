@@ -44,10 +44,13 @@ export default function IgestView({title, igest, quartile}: IgestViewProps) {
   return (
     <div
       className={cn(
-        'flex flex-col items-center justify-center rounded-md w-32 h-24',
+        'flex flex-col items-center justify-center rounded-md w-36 h-24',
         colorClass
       )}
     >
+      <p className="text-sm text-muted-foreground">
+        {quartile.first.toFixed(3)}
+      </p>
       <h1 className="text-2xl font-bold">{igest.value.toFixed(3)}</h1>
       <p className="text-sm text-muted-foreground">{title}</p>
     </div>
