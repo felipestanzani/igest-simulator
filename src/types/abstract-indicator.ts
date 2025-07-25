@@ -1,7 +1,12 @@
-import {AbstractIndicator} from './abstract-indicator';
 import {Quartile} from './quartile';
 
-export class Igest extends AbstractIndicator {
+export abstract class AbstractIndicator {
+  value: number;
+
+  constructor(value: number) {
+    this.value = value;
+  }
+
   public getQuartile(quartile: Quartile) {
     if (this.value > quartile.third) {
       return 'third';

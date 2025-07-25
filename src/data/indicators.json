@@ -1,1298 +1,1802 @@
 [
     {
-        "name": "10ª Vara do Trabalho de Vitória",
-        "igest": 0.5257401564,
-        "indicators": [
-            {
-                "id": "I08",
-                "value": 0.6923770354
-            },
-            {
-                "id": "I10",
-                "value": 0.6549678068
-            },
-            {
-                "id": "I07",
-                "value": 0.7449308173
-            },
-            {
-                "id": "I09",
-                "value": 0.5609355692
-            },
-            {
-                "id": "I04",
-                "value": 0.4176553052
-            },
-            {
-                "id": "I05",
-                "value": 0.5627326052
-            },
-            {
-                "id": "I06",
-                "value": 0.6786021547
-            },
-            {
-                "id": "I11",
-                "value": 0.3699082636
-            },
-            {
-                "id": "I01",
-                "value": 0.5967711112
-            },
-            {
-                "id": "I02",
-                "value": 0.4243485974
-            },
-            {
-                "id": "I12",
-                "value": 0.5453215782
-            },
-            {
-                "id": "I03",
-                "value": 0
-            }
-        ]
+        "court": "10ª Vara do Trabalho de Vitória",
+        "id": "I08",
+        "value": 0.6923770354,
+        "igest": 0.5257401564
     },
     {
-        "name": "11ª Vara do Trabalho de Vitória",
-        "igest": 0.4782905164,
-        "indicators": [
-            {
-                "id": "I08",
-                "value": 0.58748751
-            },
-            {
-                "id": "I10",
-                "value": 0.566082495
-            },
-            {
-                "id": "I04",
-                "value": 0.4505345248
-            },
-            {
-                "id": "I09",
-                "value": 0.4948014838
-            },
-            {
-                "id": "I06",
-                "value": 0.7775443434
-            },
-            {
-                "id": "I01",
-                "value": 0.7102184288
-            },
-            {
-                "id": "I11",
-                "value": 0.3793415429
-            },
-            {
-                "id": "I02",
-                "value": 0.4351701963
-            },
-            {
-                "id": "I07",
-                "value": 0.4094979467
-            },
-            {
-                "id": "I12",
-                "value": 0.5447482322
-            },
-            {
-                "id": "I05",
-                "value": 0.3991369825
-            },
-            {
-                "id": "I03",
-                "value": 0
-            }
-        ]
+        "court": "10ª Vara do Trabalho de Vitória",
+        "id": "I10",
+        "value": 0.6549678068,
+        "igest": 0.5257401564
     },
     {
-        "name": "12ª Vara do Trabalho de Vitória",
-        "igest": 0.5353015295,
-        "indicators": [
-            {
-                "id": "I09",
-                "value": 0.6213382039
-            },
-            {
-                "id": "I10",
-                "value": 0.5880221328
-            },
-            {
-                "id": "I08",
-                "value": 0.5126962496
-            },
-            {
-                "id": "I06",
-                "value": 0.8361522081
-            },
-            {
-                "id": "I04",
-                "value": 0.4123243568
-            },
-            {
-                "id": "I12",
-                "value": 0.7706125283
-            },
-            {
-                "id": "I03",
-                "value": 0.6849411883
-            },
-            {
-                "id": "I07",
-                "value": 0.507706588
-            },
-            {
-                "id": "I11",
-                "value": 0.3902087931
-            },
-            {
-                "id": "I02",
-                "value": 0.4103337399
-            },
-            {
-                "id": "I05",
-                "value": 0.4096313425
-            },
-            {
-                "id": "I01",
-                "value": 0.5146663279
-            }
-        ]
+        "court": "10ª Vara do Trabalho de Vitória",
+        "id": "I07",
+        "value": 0.7449308173,
+        "igest": 0.5257401564
     },
     {
-        "name": "13ª Vara do Trabalho de Vitória",
-        "igest": 0.3883082744,
-        "indicators": [
-            {
-                "id": "I10",
-                "value": 0.5349034205
-            },
-            {
-                "id": "I08",
-                "value": 0.4650850747
-            },
-            {
-                "id": "I04",
-                "value": 0.3568221207
-            },
-            {
-                "id": "I07",
-                "value": 0.5283462518
-            },
-            {
-                "id": "I12",
-                "value": 0.551109125
-            },
-            {
-                "id": "I06",
-                "value": 0.5487720624
-            },
-            {
-                "id": "I09",
-                "value": 0.3227149626
-            },
-            {
-                "id": "I05",
-                "value": 0.3609722985
-            },
-            {
-                "id": "I11",
-                "value": 0.2773468464
-            },
-            {
-                "id": "I01",
-                "value": 0.4169026242
-            },
-            {
-                "id": "I02",
-                "value": 0.2916509591
-            },
-            {
-                "id": "I03",
-                "value": 0
-            }
-        ]
+        "court": "10ª Vara do Trabalho de Vitória",
+        "id": "I09",
+        "value": 0.5609355692,
+        "igest": 0.5257401564
     },
     {
-        "name": "14ª Vara do Trabalho de Vitória",
-        "igest": 0.4704733259,
-        "indicators": [
-            {
-                "id": "I10",
-                "value": 0.6360221328
-            },
-            {
-                "id": "I08",
-                "value": 0.6007660539
-            },
-            {
-                "id": "I07",
-                "value": 0.7466637608
-            },
-            {
-                "id": "I05",
-                "value": 0.5734391665
-            },
-            {
-                "id": "I04",
-                "value": 0.3598562749
-            },
-            {
-                "id": "I09",
-                "value": 0.4179937702
-            },
-            {
-                "id": "I06",
-                "value": 0.6210907895
-            },
-            {
-                "id": "I01",
-                "value": 0.5408418381
-            },
-            {
-                "id": "I12",
-                "value": 0.5058023527
-            },
-            {
-                "id": "I11",
-                "value": 0.292740946
-            },
-            {
-                "id": "I02",
-                "value": 0.3358243708
-            },
-            {
-                "id": "I03",
-                "value": 0
-            }
-        ]
+        "court": "10ª Vara do Trabalho de Vitória",
+        "id": "I04",
+        "value": 0.4176553052,
+        "igest": 0.5257401564
     },
     {
-        "name": "15ª Vara do Trabalho de Vitória",
-        "igest": 0.5441700963,
-        "indicators": [
-            {
-                "id": "I08",
-                "value": 0.8145826328
-            },
-            {
-                "id": "I07",
-                "value": 1
-            },
-            {
-                "id": "I10",
-                "value": 0.7205567692
-            },
-            {
-                "id": "I03",
-                "value": 1
-            },
-            {
-                "id": "I12",
-                "value": 1
-            },
-            {
-                "id": "I09",
-                "value": 0.4272190981
-            },
-            {
-                "id": "I06",
-                "value": 0.6236466693
-            },
-            {
-                "id": "I04",
-                "value": 0.2616128801
-            },
-            {
-                "id": "I11",
-                "value": 0.2921444623
-            },
-            {
-                "id": "I01",
-                "value": 0.4850803434
-            },
-            {
-                "id": "I02",
-                "value": 0.1954983923
-            },
-            {
-                "id": "I05",
-                "value": 0.0645345282
-            }
-        ]
+        "court": "10ª Vara do Trabalho de Vitória",
+        "id": "I05",
+        "value": 0.5627326052,
+        "igest": 0.5257401564
     },
     {
-        "name": "1ª Vara do Trabalho de Vitória",
-        "igest": 0.5051246948,
-        "indicators": [
-            {
-                "id": "I09",
-                "value": 0.5562289836
-            },
-            {
-                "id": "I10",
-                "value": 0.5559577465
-            },
-            {
-                "id": "I08",
-                "value": 0.5509720028
-            },
-            {
-                "id": "I04",
-                "value": 0.4550996788
-            },
-            {
-                "id": "I06",
-                "value": 0.7622149756
-            },
-            {
-                "id": "I07",
-                "value": 0.5361647298
-            },
-            {
-                "id": "I11",
-                "value": 0.4172011869
-            },
-            {
-                "id": "I12",
-                "value": 0.6006529848
-            },
-            {
-                "id": "I02",
-                "value": 0.4387182614
-            },
-            {
-                "id": "I05",
-                "value": 0.4134315989
-            },
-            {
-                "id": "I01",
-                "value": 0.5403901202
-            },
-            {
-                "id": "I03",
-                "value": 0.2869348221
-            }
-        ]
+        "court": "10ª Vara do Trabalho de Vitória",
+        "id": "I06",
+        "value": 0.6786021547,
+        "igest": 0.5257401564
     },
     {
-        "name": "2ª Vara do Trabalho de Vitória",
-        "igest": 0.5292396505,
-        "indicators": [
-            {
-                "id": "I04",
-                "value": 0.6903264897
-            },
-            {
-                "id": "I08",
-                "value": 0.6539359554
-            },
-            {
-                "id": "I05",
-                "value": 0.7562856186
-            },
-            {
-                "id": "I10",
-                "value": 0.5186297787
-            },
-            {
-                "id": "I09",
-                "value": 0.4826389252
-            },
-            {
-                "id": "I06",
-                "value": 0.7787329064
-            },
-            {
-                "id": "I11",
-                "value": 0.4483127325
-            },
-            {
-                "id": "I01",
-                "value": 0.7221941928
-            },
-            {
-                "id": "I02",
-                "value": 0.5142920501
-            },
-            {
-                "id": "I07",
-                "value": 0.3334331634
-            },
-            {
-                "id": "I12",
-                "value": 0.2945373333
-            },
-            {
-                "id": "I03",
-                "value": 0
-            }
-        ]
+        "court": "10ª Vara do Trabalho de Vitória",
+        "id": "I11",
+        "value": 0.3699082636,
+        "igest": 0.5257401564
     },
     {
-        "name": "3ª Vara do Trabalho de Vitória",
-        "igest": 0.6628526678,
-        "indicators": [
-            {
-                "id": "I09",
-                "value": 0.7113771516
-            },
-            {
-                "id": "I08",
-                "value": 0.7005849666
-            },
-            {
-                "id": "I05",
-                "value": 0.7838716064
-            },
-            {
-                "id": "I10",
-                "value": 0.6266539235
-            },
-            {
-                "id": "I03",
-                "value": 1
-            },
-            {
-                "id": "I04",
-                "value": 0.4985744976
-            },
-            {
-                "id": "I12",
-                "value": 0.8686059604
-            },
-            {
-                "id": "I06",
-                "value": 0.8323480049
-            },
-            {
-                "id": "I11",
-                "value": 0.4921050797
-            },
-            {
-                "id": "I07",
-                "value": 0.5638922447
-            },
-            {
-                "id": "I02",
-                "value": 0.5174853088
-            },
-            {
-                "id": "I01",
-                "value": 0.6445740866
-            }
-        ]
+        "court": "10ª Vara do Trabalho de Vitória",
+        "id": "I01",
+        "value": 0.5967711112,
+        "igest": 0.5257401564
     },
     {
-        "name": "4ª Vara do Trabalho de Vitória",
-        "igest": 0.5048344984,
-        "indicators": [
-            {
-                "id": "I10",
-                "value": 0.6110971986
-            },
-            {
-                "id": "I03",
-                "value": 1
-            },
-            {
-                "id": "I08",
-                "value": 0.5417829754
-            },
-            {
-                "id": "I06",
-                "value": 0.8139218197
-            },
-            {
-                "id": "I05",
-                "value": 0.5568231383
-            },
-            {
-                "id": "I04",
-                "value": 0.3665742722
-            },
-            {
-                "id": "I07",
-                "value": 0.5207350823
-            },
-            {
-                "id": "I09",
-                "value": 0.4136859924
-            },
-            {
-                "id": "I01",
-                "value": 0.5261449765
-            },
-            {
-                "id": "I11",
-                "value": 0.2920628919
-            },
-            {
-                "id": "I02",
-                "value": 0.3629670695
-            },
-            {
-                "id": "I12",
-                "value": 0.3222774818
-            }
-        ]
+        "court": "10ª Vara do Trabalho de Vitória",
+        "id": "I02",
+        "value": 0.4243485974,
+        "igest": 0.5257401564
     },
     {
-        "name": "5ª Vara do Trabalho de Vitória",
-        "igest": 0.5434411453,
-        "indicators": [
-            {
-                "id": "I09",
-                "value": 0.7596158513
-            },
-            {
-                "id": "I10",
-                "value": 0.6262676056
-            },
-            {
-                "id": "I08",
-                "value": 0.5701838976
-            },
-            {
-                "id": "I04",
-                "value": 0.4193819451
-            },
-            {
-                "id": "I05",
-                "value": 0.5984238151
-            },
-            {
-                "id": "I07",
-                "value": 0.5938243357
-            },
-            {
-                "id": "I11",
-                "value": 0.4595455047
-            },
-            {
-                "id": "I12",
-                "value": 0.7341518329
-            },
-            {
-                "id": "I06",
-                "value": 0.6568649792
-            },
-            {
-                "id": "I02",
-                "value": 0.4832464797
-            },
-            {
-                "id": "I01",
-                "value": 0.5675574473
-            },
-            {
-                "id": "I03",
-                "value": 0
-            }
-        ]
+        "court": "10ª Vara do Trabalho de Vitória",
+        "id": "I12",
+        "value": 0.5453215782,
+        "igest": 0.5257401564
     },
     {
-        "name": "6ª Vara do Trabalho de Vitória",
-        "igest": 0.5013683769,
-        "indicators": [
-            {
-                "id": "I04",
-                "value": 0.5362549775
-            },
-            {
-                "id": "I06",
-                "value": 0.9059025096
-            },
-            {
-                "id": "I05",
-                "value": 0.6737062368
-            },
-            {
-                "id": "I08",
-                "value": 0.5386515353
-            },
-            {
-                "id": "I09",
-                "value": 0.4929474609
-            },
-            {
-                "id": "I10",
-                "value": 0.4664672032
-            },
-            {
-                "id": "I11",
-                "value": 0.4258893636
-            },
-            {
-                "id": "I12",
-                "value": 0.6348277605
-            },
-            {
-                "id": "I01",
-                "value": 0.5787037288
-            },
-            {
-                "id": "I02",
-                "value": 0.4071404812
-            },
-            {
-                "id": "I07",
-                "value": 0.387355574
-            },
-            {
-                "id": "I03",
-                "value": 0
-            }
-        ]
+        "court": "10ª Vara do Trabalho de Vitória",
+        "id": "I03",
+        "value": 0,
+        "igest": 0.5257401564
     },
     {
-        "name": "7ª Vara do Trabalho de Vitória",
-        "igest": 0.4064623801,
-        "indicators": [
-            {
-                "id": "I10",
-                "value": 0.5566981891
-            },
-            {
-                "id": "I06",
-                "value": 0.7857724484
-            },
-            {
-                "id": "I09",
-                "value": 0.4459115642
-            },
-            {
-                "id": "I07",
-                "value": 0.4965962175
-            },
-            {
-                "id": "I08",
-                "value": 0.3911873621
-            },
-            {
-                "id": "I05",
-                "value": 0.4839902143
-            },
-            {
-                "id": "I11",
-                "value": 0.3154736027
-            },
-            {
-                "id": "I12",
-                "value": 0.5017661774
-            },
-            {
-                "id": "I04",
-                "value": 0.2439352054
-            },
-            {
-                "id": "I02",
-                "value": 0.36190265
-            },
-            {
-                "id": "I01",
-                "value": 0.3601939923
-            },
-            {
-                "id": "I03",
-                "value": 0
-            }
-        ]
+        "court": "11ª Vara do Trabalho de Vitória",
+        "id": "I08",
+        "value": 0.58748751,
+        "igest": 0.4782905164
     },
     {
-        "name": "8ª Vara do Trabalho de Vitória",
-        "igest": 0.5223509149,
-        "indicators": [
-            {
-                "id": "I09",
-                "value": 0.5560276924
-            },
-            {
-                "id": "I03",
-                "value": 0.9099932931
-            },
-            {
-                "id": "I04",
-                "value": 0.427152626
-            },
-            {
-                "id": "I06",
-                "value": 0.848078
-            },
-            {
-                "id": "I10",
-                "value": 0.4881589537
-            },
-            {
-                "id": "I08",
-                "value": 0.4805042188
-            },
-            {
-                "id": "I11",
-                "value": 0.4499294644
-            },
-            {
-                "id": "I05",
-                "value": 0.5220851652
-            },
-            {
-                "id": "I02",
-                "value": 0.4731344938
-            },
-            {
-                "id": "I12",
-                "value": 0.5749897112
-            },
-            {
-                "id": "I01",
-                "value": 0.4827547343
-            },
-            {
-                "id": "I07",
-                "value": 0.3133006225
-            }
-        ]
+        "court": "11ª Vara do Trabalho de Vitória",
+        "id": "I10",
+        "value": 0.566082495,
+        "igest": 0.4782905164
     },
     {
-        "name": "9ª Vara do Trabalho de Vitória",
-        "igest": 0.6215137312,
-        "indicators": [
-            {
-                "id": "I11",
-                "value": 0.7123930048
-            },
-            {
-                "id": "I08",
-                "value": 0.7030493175
-            },
-            {
-                "id": "I04",
-                "value": 0.5542509953
-            },
-            {
-                "id": "I05",
-                "value": 0.8140305862
-            },
-            {
-                "id": "I09",
-                "value": 0.6102152226
-            },
-            {
-                "id": "I03",
-                "value": 1
-            },
-            {
-                "id": "I02",
-                "value": 0.6129282626
-            },
-            {
-                "id": "I10",
-                "value": 0.4045425889
-            },
-            {
-                "id": "I06",
-                "value": 0.6594765905
-            },
-            {
-                "id": "I01",
-                "value": 0.6362006315
-            },
-            {
-                "id": "I07",
-                "value": 0.4443438865
-            },
-            {
-                "id": "I12",
-                "value": 0.4089791046
-            }
-        ]
+        "court": "11ª Vara do Trabalho de Vitória",
+        "id": "I04",
+        "value": 0.4505345248,
+        "igest": 0.4782905164
     },
     {
-        "name": "1ª Vara do Trabalho de Cachoeiro de Itapemirim",
-        "igest": 0.4153981112,
-        "indicators": [
-            {
-                "id": "I11",
-                "value": 0.5532386341
-            },
-            {
-                "id": "I09",
-                "value": 0.5399460261
-            },
-            {
-                "id": "I05",
-                "value": 0.6498207367
-            },
-            {
-                "id": "I07",
-                "value": 0.557741266
-            },
-            {
-                "id": "I08",
-                "value": 0.3824005518
-            },
-            {
-                "id": "I02",
-                "value": 0.4231067746
-            },
-            {
-                "id": "I06",
-                "value": 0.5532242366
-            },
-            {
-                "id": "I04",
-                "value": 0.2582216512
-            },
-            {
-                "id": "I10",
-                "value": 0.3088108652
-            },
-            {
-                "id": "I12",
-                "value": 0.4329768306
-            },
-            {
-                "id": "I01",
-                "value": 0.2724389861
-            },
-            {
-                "id": "I03",
-                "value": 0
-            }
-        ]
+        "court": "11ª Vara do Trabalho de Vitória",
+        "id": "I09",
+        "value": 0.4948014838,
+        "igest": 0.4782905164
     },
     {
-        "name": "2ª Vara do Trabalho de Cachoeiro de Itapemirim",
-        "igest": 0.5620434634,
-        "indicators": [
-            {
-                "id": "I11",
-                "value": 1
-            },
-            {
-                "id": "I09",
-                "value": 0.7845064096
-            },
-            {
-                "id": "I02",
-                "value": 0.7683335181
-            },
-            {
-                "id": "I12",
-                "value": 0.9095404739
-            },
-            {
-                "id": "I05",
-                "value": 0.6737634301
-            },
-            {
-                "id": "I04",
-                "value": 0.4391372517
-            },
-            {
-                "id": "I08",
-                "value": 0.4877116534
-            },
-            {
-                "id": "I06",
-                "value": 0.6022537224
-            },
-            {
-                "id": "I10",
-                "value": 0.2830482897
-            },
-            {
-                "id": "I01",
-                "value": 0.4250685462
-            },
-            {
-                "id": "I07",
-                "value": 0.2780104692
-            },
-            {
-                "id": "I03",
-                "value": 0
-            }
-        ]
+        "court": "11ª Vara do Trabalho de Vitória",
+        "id": "I06",
+        "value": 0.7775443434,
+        "igest": 0.4782905164
     },
     {
-        "name": "Vara do Trabalho de Aracruz",
-        "igest": 0.5719581925,
-        "indicators": [
-            {
-                "id": "I08",
-                "value": 0.9001662158
-            },
-            {
-                "id": "I04",
-                "value": 0.5956668554
-            },
-            {
-                "id": "I07",
-                "value": 0.702361748
-            },
-            {
-                "id": "I10",
-                "value": 0.5489074447
-            },
-            {
-                "id": "I11",
-                "value": 0.4887521183
-            },
-            {
-                "id": "I01",
-                "value": 0.7950531257
-            },
-            {
-                "id": "I03",
-                "value": 0.7806315014
-            },
-            {
-                "id": "I12",
-                "value": 0.6778509616
-            },
-            {
-                "id": "I09",
-                "value": 0.3857493061
-            },
-            {
-                "id": "I02",
-                "value": 0.3737886684
-            },
-            {
-                "id": "I06",
-                "value": 0.4652215437
-            },
-            {
-                "id": "I05",
-                "value": 0.236290002
-            }
-        ]
+        "court": "11ª Vara do Trabalho de Vitória",
+        "id": "I01",
+        "value": 0.7102184288,
+        "igest": 0.4782905164
     },
     {
-        "name": "Vara do Trabalho de Colatina",
-        "igest": 0.4818228972,
-        "indicators": [
-            {
-                "id": "I09",
-                "value": 0.6712060656
-            },
-            {
-                "id": "I05",
-                "value": 0.715563802
-            },
-            {
-                "id": "I10",
-                "value": 0.55601718
-            },
-            {
-                "id": "I04",
-                "value": 0.4080067345
-            },
-            {
-                "id": "I11",
-                "value": 0.4759226205
-            },
-            {
-                "id": "I02",
-                "value": 0.5914624681
-            },
-            {
-                "id": "I08",
-                "value": 0.4192135307
-            },
-            {
-                "id": "I06",
-                "value": 0.6926113896
-            },
-            {
-                "id": "I07",
-                "value": 0.3384278253
-            },
-            {
-                "id": "I01",
-                "value": 0.4140166071
-            },
-            {
-                "id": "I12",
-                "value": 0.3765356984
-            },
-            {
-                "id": "I03",
-                "value": 0
-            }
-        ]
+        "court": "11ª Vara do Trabalho de Vitória",
+        "id": "I11",
+        "value": 0.3793415429,
+        "igest": 0.4782905164
     },
     {
-        "name": "Vara do Trabalho de Guarapari",
-        "igest": 0.4001036336,
-        "indicators": [
-            {
-                "id": "I07",
-                "value": 0.7578638735
-            },
-            {
-                "id": "I08",
-                "value": 0.5368290798
-            },
-            {
-                "id": "I10",
-                "value": 0.5278370221
-            },
-            {
-                "id": "I06",
-                "value": 0.6930063552
-            },
-            {
-                "id": "I04",
-                "value": 0.3115503466
-            },
-            {
-                "id": "I05",
-                "value": 0.3975731463
-            },
-            {
-                "id": "I01",
-                "value": 0.4966393844
-            },
-            {
-                "id": "I11",
-                "value": 0.274802251
-            },
-            {
-                "id": "I02",
-                "value": 0.3152455926
-            },
-            {
-                "id": "I09",
-                "value": 0.2426348259
-            },
-            {
-                "id": "I12",
-                "value": 0.2578986788
-            },
-            {
-                "id": "I03",
-                "value": 0
-            }
-        ]
+        "court": "11ª Vara do Trabalho de Vitória",
+        "id": "I02",
+        "value": 0.4351701963,
+        "igest": 0.4782905164
     },
     {
-        "name": "Vara do Trabalho de Linhares",
-        "igest": 0.3974908184,
-        "indicators": [
-            {
-                "id": "I08",
-                "value": 0.5826549198
-            },
-            {
-                "id": "I10",
-                "value": 0.4972760563
-            },
-            {
-                "id": "I07",
-                "value": 0.6011196728
-            },
-            {
-                "id": "I04",
-                "value": 0.3761642411
-            },
-            {
-                "id": "I06",
-                "value": 0.5820212716
-            },
-            {
-                "id": "I01",
-                "value": 0.5294349062
-            },
-            {
-                "id": "I05",
-                "value": 0.3755955692
-            },
-            {
-                "id": "I11",
-                "value": 0.2996999226
-            },
-            {
-                "id": "I12",
-                "value": 0.3931509772
-            },
-            {
-                "id": "I09",
-                "value": 0.2305386975
-            },
-            {
-                "id": "I02",
-                "value": 0.2865062646
-            },
-            {
-                "id": "I03",
-                "value": 0
-            }
-        ]
+        "court": "11ª Vara do Trabalho de Vitória",
+        "id": "I07",
+        "value": 0.4094979467,
+        "igest": 0.4782905164
     },
     {
-        "name": "Vara do Trabalho de Nova Venécia",
-        "igest": 0.4689485306,
-        "indicators": [
-            {
-                "id": "I03",
-                "value": 1
-            },
-            {
-                "id": "I11",
-                "value": 0.5734196661
-            },
-            {
-                "id": "I04",
-                "value": 0.4439094975
-            },
-            {
-                "id": "I08",
-                "value": 0.5082760429
-            },
-            {
-                "id": "I05",
-                "value": 0.6081106682
-            },
-            {
-                "id": "I09",
-                "value": 0.4818077434
-            },
-            {
-                "id": "I07",
-                "value": 0.5459140815
-            },
-            {
-                "id": "I10",
-                "value": 0.2988245473
-            },
-            {
-                "id": "I01",
-                "value": 0.4853153304
-            },
-            {
-                "id": "I02",
-                "value": 0.2740880364
-            },
-            {
-                "id": "I06",
-                "value": 0.2460478313
-            },
-            {
-                "id": "I12",
-                "value": 0.188596305
-            }
-        ]
+        "court": "11ª Vara do Trabalho de Vitória",
+        "id": "I12",
+        "value": 0.5447482322,
+        "igest": 0.4782905164
     },
     {
-        "name": "Vara do Trabalho de São Mateus",
-        "igest": 0.4981755551,
-        "indicators": [
-            {
-                "id": "I04",
-                "value": 0.7497338348
-            },
-            {
-                "id": "I05",
-                "value": 0.88498203
-            },
-            {
-                "id": "I11",
-                "value": 0.5144487835
-            },
-            {
-                "id": "I08",
-                "value": 0.4947714453
-            },
-            {
-                "id": "I09",
-                "value": 0.4788412479
-            },
-            {
-                "id": "I06",
-                "value": 0.6988863408
-            },
-            {
-                "id": "I01",
-                "value": 0.6430055966
-            },
-            {
-                "id": "I10",
-                "value": 0.3585063716
-            },
-            {
-                "id": "I02",
-                "value": 0.4426211332
-            },
-            {
-                "id": "I07",
-                "value": 0.316770291
-            },
-            {
-                "id": "I12",
-                "value": 0.1914552914
-            },
-            {
-                "id": "I03",
-                "value": 0
-            }
-        ]
+        "court": "11ª Vara do Trabalho de Vitória",
+        "id": "I05",
+        "value": 0.3991369825,
+        "igest": 0.4782905164
     },
     {
-        "name": "Vara do Trabalho de Venda Nova do Imigrante",
-        "igest": 0.4071198218,
-        "indicators": [
-            {
-                "id": "I10",
-                "value": 0.6838289738
-            },
-            {
-                "id": "I03",
-                "value": 0.8847157016
-            },
-            {
-                "id": "I09",
-                "value": 0.4193159729
-            },
-            {
-                "id": "I07",
-                "value": 0.4657787463
-            },
-            {
-                "id": "I06",
-                "value": 0.5711697464
-            },
-            {
-                "id": "I08",
-                "value": 0.335226737
-            },
-            {
-                "id": "I04",
-                "value": 0.2506298531
-            },
-            {
-                "id": "I12",
-                "value": 0.5011414462
-            },
-            {
-                "id": "I05",
-                "value": 0.3192291052
-            },
-            {
-                "id": "I01",
-                "value": 0.3973622278
-            },
-            {
-                "id": "I11",
-                "value": 0.1898143694
-            },
-            {
-                "id": "I02",
-                "value": 0.127020734
-            }
-        ]
+        "court": "11ª Vara do Trabalho de Vitória",
+        "id": "I03",
+        "value": 0,
+        "igest": 0.4782905164
+    },
+    {
+        "court": "12ª Vara do Trabalho de Vitória",
+        "id": "I09",
+        "value": 0.6213382039,
+        "igest": 0.5353015295
+    },
+    {
+        "court": "12ª Vara do Trabalho de Vitória",
+        "id": "I10",
+        "value": 0.5880221328,
+        "igest": 0.5353015295
+    },
+    {
+        "court": "12ª Vara do Trabalho de Vitória",
+        "id": "I08",
+        "value": 0.5126962496,
+        "igest": 0.5353015295
+    },
+    {
+        "court": "12ª Vara do Trabalho de Vitória",
+        "id": "I06",
+        "value": 0.8361522081,
+        "igest": 0.5353015295
+    },
+    {
+        "court": "12ª Vara do Trabalho de Vitória",
+        "id": "I04",
+        "value": 0.4123243568,
+        "igest": 0.5353015295
+    },
+    {
+        "court": "12ª Vara do Trabalho de Vitória",
+        "id": "I12",
+        "value": 0.7706125283,
+        "igest": 0.5353015295
+    },
+    {
+        "court": "12ª Vara do Trabalho de Vitória",
+        "id": "I03",
+        "value": 0.6849411883,
+        "igest": 0.5353015295
+    },
+    {
+        "court": "12ª Vara do Trabalho de Vitória",
+        "id": "I07",
+        "value": 0.507706588,
+        "igest": 0.5353015295
+    },
+    {
+        "court": "12ª Vara do Trabalho de Vitória",
+        "id": "I11",
+        "value": 0.3902087931,
+        "igest": 0.5353015295
+    },
+    {
+        "court": "12ª Vara do Trabalho de Vitória",
+        "id": "I02",
+        "value": 0.4103337399,
+        "igest": 0.5353015295
+    },
+    {
+        "court": "12ª Vara do Trabalho de Vitória",
+        "id": "I05",
+        "value": 0.4096313425,
+        "igest": 0.5353015295
+    },
+    {
+        "court": "12ª Vara do Trabalho de Vitória",
+        "id": "I01",
+        "value": 0.5146663279,
+        "igest": 0.5353015295
+    },
+    {
+        "court": "13ª Vara do Trabalho de Vitória",
+        "id": "I10",
+        "value": 0.5349034205,
+        "igest": 0.3883082744
+    },
+    {
+        "court": "13ª Vara do Trabalho de Vitória",
+        "id": "I08",
+        "value": 0.4650850747,
+        "igest": 0.3883082744
+    },
+    {
+        "court": "13ª Vara do Trabalho de Vitória",
+        "id": "I04",
+        "value": 0.3568221207,
+        "igest": 0.3883082744
+    },
+    {
+        "court": "13ª Vara do Trabalho de Vitória",
+        "id": "I07",
+        "value": 0.5283462518,
+        "igest": 0.3883082744
+    },
+    {
+        "court": "13ª Vara do Trabalho de Vitória",
+        "id": "I12",
+        "value": 0.551109125,
+        "igest": 0.3883082744
+    },
+    {
+        "court": "13ª Vara do Trabalho de Vitória",
+        "id": "I06",
+        "value": 0.5487720624,
+        "igest": 0.3883082744
+    },
+    {
+        "court": "13ª Vara do Trabalho de Vitória",
+        "id": "I09",
+        "value": 0.3227149626,
+        "igest": 0.3883082744
+    },
+    {
+        "court": "13ª Vara do Trabalho de Vitória",
+        "id": "I05",
+        "value": 0.3609722985,
+        "igest": 0.3883082744
+    },
+    {
+        "court": "13ª Vara do Trabalho de Vitória",
+        "id": "I11",
+        "value": 0.2773468464,
+        "igest": 0.3883082744
+    },
+    {
+        "court": "13ª Vara do Trabalho de Vitória",
+        "id": "I01",
+        "value": 0.4169026242,
+        "igest": 0.3883082744
+    },
+    {
+        "court": "13ª Vara do Trabalho de Vitória",
+        "id": "I02",
+        "value": 0.2916509591,
+        "igest": 0.3883082744
+    },
+    {
+        "court": "13ª Vara do Trabalho de Vitória",
+        "id": "I03",
+        "value": 0,
+        "igest": 0.3883082744
+    },
+    {
+        "court": "14ª Vara do Trabalho de Vitória",
+        "id": "I10",
+        "value": 0.6360221328,
+        "igest": 0.4704733259
+    },
+    {
+        "court": "14ª Vara do Trabalho de Vitória",
+        "id": "I08",
+        "value": 0.6007660539,
+        "igest": 0.4704733259
+    },
+    {
+        "court": "14ª Vara do Trabalho de Vitória",
+        "id": "I07",
+        "value": 0.7466637608,
+        "igest": 0.4704733259
+    },
+    {
+        "court": "14ª Vara do Trabalho de Vitória",
+        "id": "I05",
+        "value": 0.5734391665,
+        "igest": 0.4704733259
+    },
+    {
+        "court": "14ª Vara do Trabalho de Vitória",
+        "id": "I04",
+        "value": 0.3598562749,
+        "igest": 0.4704733259
+    },
+    {
+        "court": "14ª Vara do Trabalho de Vitória",
+        "id": "I09",
+        "value": 0.4179937702,
+        "igest": 0.4704733259
+    },
+    {
+        "court": "14ª Vara do Trabalho de Vitória",
+        "id": "I06",
+        "value": 0.6210907895,
+        "igest": 0.4704733259
+    },
+    {
+        "court": "14ª Vara do Trabalho de Vitória",
+        "id": "I01",
+        "value": 0.5408418381,
+        "igest": 0.4704733259
+    },
+    {
+        "court": "14ª Vara do Trabalho de Vitória",
+        "id": "I12",
+        "value": 0.5058023527,
+        "igest": 0.4704733259
+    },
+    {
+        "court": "14ª Vara do Trabalho de Vitória",
+        "id": "I11",
+        "value": 0.292740946,
+        "igest": 0.4704733259
+    },
+    {
+        "court": "14ª Vara do Trabalho de Vitória",
+        "id": "I02",
+        "value": 0.3358243708,
+        "igest": 0.4704733259
+    },
+    {
+        "court": "14ª Vara do Trabalho de Vitória",
+        "id": "I03",
+        "value": 0,
+        "igest": 0.4704733259
+    },
+    {
+        "court": "15ª Vara do Trabalho de Vitória",
+        "id": "I08",
+        "value": 0.8145826328,
+        "igest": 0.5441700963
+    },
+    {
+        "court": "15ª Vara do Trabalho de Vitória",
+        "id": "I07",
+        "value": 1,
+        "igest": 0.5441700963
+    },
+    {
+        "court": "15ª Vara do Trabalho de Vitória",
+        "id": "I10",
+        "value": 0.7205567692,
+        "igest": 0.5441700963
+    },
+    {
+        "court": "15ª Vara do Trabalho de Vitória",
+        "id": "I03",
+        "value": 1,
+        "igest": 0.5441700963
+    },
+    {
+        "court": "15ª Vara do Trabalho de Vitória",
+        "id": "I12",
+        "value": 1,
+        "igest": 0.5441700963
+    },
+    {
+        "court": "15ª Vara do Trabalho de Vitória",
+        "id": "I09",
+        "value": 0.4272190981,
+        "igest": 0.5441700963
+    },
+    {
+        "court": "15ª Vara do Trabalho de Vitória",
+        "id": "I06",
+        "value": 0.6236466693,
+        "igest": 0.5441700963
+    },
+    {
+        "court": "15ª Vara do Trabalho de Vitória",
+        "id": "I04",
+        "value": 0.2616128801,
+        "igest": 0.5441700963
+    },
+    {
+        "court": "15ª Vara do Trabalho de Vitória",
+        "id": "I11",
+        "value": 0.2921444623,
+        "igest": 0.5441700963
+    },
+    {
+        "court": "15ª Vara do Trabalho de Vitória",
+        "id": "I01",
+        "value": 0.4850803434,
+        "igest": 0.5441700963
+    },
+    {
+        "court": "15ª Vara do Trabalho de Vitória",
+        "id": "I02",
+        "value": 0.1954983923,
+        "igest": 0.5441700963
+    },
+    {
+        "court": "15ª Vara do Trabalho de Vitória",
+        "id": "I05",
+        "value": 0.0645345282,
+        "igest": 0.5441700963
+    },
+    {
+        "court": "1ª Vara do Trabalho de Vitória",
+        "id": "I09",
+        "value": 0.5562289836,
+        "igest": 0.5051246948
+    },
+    {
+        "court": "1ª Vara do Trabalho de Vitória",
+        "id": "I10",
+        "value": 0.5559577465,
+        "igest": 0.5051246948
+    },
+    {
+        "court": "1ª Vara do Trabalho de Vitória",
+        "id": "I08",
+        "value": 0.5509720028,
+        "igest": 0.5051246948
+    },
+    {
+        "court": "1ª Vara do Trabalho de Vitória",
+        "id": "I04",
+        "value": 0.4550996788,
+        "igest": 0.5051246948
+    },
+    {
+        "court": "1ª Vara do Trabalho de Vitória",
+        "id": "I06",
+        "value": 0.7622149756,
+        "igest": 0.5051246948
+    },
+    {
+        "court": "1ª Vara do Trabalho de Vitória",
+        "id": "I07",
+        "value": 0.5361647298,
+        "igest": 0.5051246948
+    },
+    {
+        "court": "1ª Vara do Trabalho de Vitória",
+        "id": "I11",
+        "value": 0.4172011869,
+        "igest": 0.5051246948
+    },
+    {
+        "court": "1ª Vara do Trabalho de Vitória",
+        "id": "I12",
+        "value": 0.6006529848,
+        "igest": 0.5051246948
+    },
+    {
+        "court": "1ª Vara do Trabalho de Vitória",
+        "id": "I02",
+        "value": 0.4387182614,
+        "igest": 0.5051246948
+    },
+    {
+        "court": "1ª Vara do Trabalho de Vitória",
+        "id": "I05",
+        "value": 0.4134315989,
+        "igest": 0.5051246948
+    },
+    {
+        "court": "1ª Vara do Trabalho de Vitória",
+        "id": "I01",
+        "value": 0.5403901202,
+        "igest": 0.5051246948
+    },
+    {
+        "court": "1ª Vara do Trabalho de Vitória",
+        "id": "I03",
+        "value": 0.2869348221,
+        "igest": 0.5051246948
+    },
+    {
+        "court": "2ª Vara do Trabalho de Vitória",
+        "id": "I04",
+        "value": 0.6903264897,
+        "igest": 0.5292396505
+    },
+    {
+        "court": "2ª Vara do Trabalho de Vitória",
+        "id": "I08",
+        "value": 0.6539359554,
+        "igest": 0.5292396505
+    },
+    {
+        "court": "2ª Vara do Trabalho de Vitória",
+        "id": "I05",
+        "value": 0.7562856186,
+        "igest": 0.5292396505
+    },
+    {
+        "court": "2ª Vara do Trabalho de Vitória",
+        "id": "I10",
+        "value": 0.5186297787,
+        "igest": 0.5292396505
+    },
+    {
+        "court": "2ª Vara do Trabalho de Vitória",
+        "id": "I09",
+        "value": 0.4826389252,
+        "igest": 0.5292396505
+    },
+    {
+        "court": "2ª Vara do Trabalho de Vitória",
+        "id": "I06",
+        "value": 0.7787329064,
+        "igest": 0.5292396505
+    },
+    {
+        "court": "2ª Vara do Trabalho de Vitória",
+        "id": "I11",
+        "value": 0.4483127325,
+        "igest": 0.5292396505
+    },
+    {
+        "court": "2ª Vara do Trabalho de Vitória",
+        "id": "I01",
+        "value": 0.7221941928,
+        "igest": 0.5292396505
+    },
+    {
+        "court": "2ª Vara do Trabalho de Vitória",
+        "id": "I02",
+        "value": 0.5142920501,
+        "igest": 0.5292396505
+    },
+    {
+        "court": "2ª Vara do Trabalho de Vitória",
+        "id": "I07",
+        "value": 0.3334331634,
+        "igest": 0.5292396505
+    },
+    {
+        "court": "2ª Vara do Trabalho de Vitória",
+        "id": "I12",
+        "value": 0.2945373333,
+        "igest": 0.5292396505
+    },
+    {
+        "court": "2ª Vara do Trabalho de Vitória",
+        "id": "I03",
+        "value": 0,
+        "igest": 0.5292396505
+    },
+    {
+        "court": "3ª Vara do Trabalho de Vitória",
+        "id": "I09",
+        "value": 0.7113771516,
+        "igest": 0.6628526678
+    },
+    {
+        "court": "3ª Vara do Trabalho de Vitória",
+        "id": "I08",
+        "value": 0.7005849666,
+        "igest": 0.6628526678
+    },
+    {
+        "court": "3ª Vara do Trabalho de Vitória",
+        "id": "I05",
+        "value": 0.7838716064,
+        "igest": 0.6628526678
+    },
+    {
+        "court": "3ª Vara do Trabalho de Vitória",
+        "id": "I10",
+        "value": 0.6266539235,
+        "igest": 0.6628526678
+    },
+    {
+        "court": "3ª Vara do Trabalho de Vitória",
+        "id": "I03",
+        "value": 1,
+        "igest": 0.6628526678
+    },
+    {
+        "court": "3ª Vara do Trabalho de Vitória",
+        "id": "I04",
+        "value": 0.4985744976,
+        "igest": 0.6628526678
+    },
+    {
+        "court": "3ª Vara do Trabalho de Vitória",
+        "id": "I12",
+        "value": 0.8686059604,
+        "igest": 0.6628526678
+    },
+    {
+        "court": "3ª Vara do Trabalho de Vitória",
+        "id": "I06",
+        "value": 0.8323480049,
+        "igest": 0.6628526678
+    },
+    {
+        "court": "3ª Vara do Trabalho de Vitória",
+        "id": "I11",
+        "value": 0.4921050797,
+        "igest": 0.6628526678
+    },
+    {
+        "court": "3ª Vara do Trabalho de Vitória",
+        "id": "I07",
+        "value": 0.5638922447,
+        "igest": 0.6628526678
+    },
+    {
+        "court": "3ª Vara do Trabalho de Vitória",
+        "id": "I02",
+        "value": 0.5174853088,
+        "igest": 0.6628526678
+    },
+    {
+        "court": "3ª Vara do Trabalho de Vitória",
+        "id": "I01",
+        "value": 0.6445740866,
+        "igest": 0.6628526678
+    },
+    {
+        "court": "4ª Vara do Trabalho de Vitória",
+        "id": "I10",
+        "value": 0.6110971986,
+        "igest": 0.5048344984
+    },
+    {
+        "court": "4ª Vara do Trabalho de Vitória",
+        "id": "I03",
+        "value": 1,
+        "igest": 0.5048344984
+    },
+    {
+        "court": "4ª Vara do Trabalho de Vitória",
+        "id": "I08",
+        "value": 0.5417829754,
+        "igest": 0.5048344984
+    },
+    {
+        "court": "4ª Vara do Trabalho de Vitória",
+        "id": "I06",
+        "value": 0.8139218197,
+        "igest": 0.5048344984
+    },
+    {
+        "court": "4ª Vara do Trabalho de Vitória",
+        "id": "I05",
+        "value": 0.5568231383,
+        "igest": 0.5048344984
+    },
+    {
+        "court": "4ª Vara do Trabalho de Vitória",
+        "id": "I04",
+        "value": 0.3665742722,
+        "igest": 0.5048344984
+    },
+    {
+        "court": "4ª Vara do Trabalho de Vitória",
+        "id": "I07",
+        "value": 0.5207350823,
+        "igest": 0.5048344984
+    },
+    {
+        "court": "4ª Vara do Trabalho de Vitória",
+        "id": "I09",
+        "value": 0.4136859924,
+        "igest": 0.5048344984
+    },
+    {
+        "court": "4ª Vara do Trabalho de Vitória",
+        "id": "I01",
+        "value": 0.5261449765,
+        "igest": 0.5048344984
+    },
+    {
+        "court": "4ª Vara do Trabalho de Vitória",
+        "id": "I11",
+        "value": 0.2920628919,
+        "igest": 0.5048344984
+    },
+    {
+        "court": "4ª Vara do Trabalho de Vitória",
+        "id": "I02",
+        "value": 0.3629670695,
+        "igest": 0.5048344984
+    },
+    {
+        "court": "4ª Vara do Trabalho de Vitória",
+        "id": "I12",
+        "value": 0.3222774818,
+        "igest": 0.5048344984
+    },
+    {
+        "court": "5ª Vara do Trabalho de Vitória",
+        "id": "I09",
+        "value": 0.7596158513,
+        "igest": 0.5434411453
+    },
+    {
+        "court": "5ª Vara do Trabalho de Vitória",
+        "id": "I10",
+        "value": 0.6262676056,
+        "igest": 0.5434411453
+    },
+    {
+        "court": "5ª Vara do Trabalho de Vitória",
+        "id": "I08",
+        "value": 0.5701838976,
+        "igest": 0.5434411453
+    },
+    {
+        "court": "5ª Vara do Trabalho de Vitória",
+        "id": "I04",
+        "value": 0.4193819451,
+        "igest": 0.5434411453
+    },
+    {
+        "court": "5ª Vara do Trabalho de Vitória",
+        "id": "I05",
+        "value": 0.5984238151,
+        "igest": 0.5434411453
+    },
+    {
+        "court": "5ª Vara do Trabalho de Vitória",
+        "id": "I07",
+        "value": 0.5938243357,
+        "igest": 0.5434411453
+    },
+    {
+        "court": "5ª Vara do Trabalho de Vitória",
+        "id": "I11",
+        "value": 0.4595455047,
+        "igest": 0.5434411453
+    },
+    {
+        "court": "5ª Vara do Trabalho de Vitória",
+        "id": "I12",
+        "value": 0.7341518329,
+        "igest": 0.5434411453
+    },
+    {
+        "court": "5ª Vara do Trabalho de Vitória",
+        "id": "I06",
+        "value": 0.6568649792,
+        "igest": 0.5434411453
+    },
+    {
+        "court": "5ª Vara do Trabalho de Vitória",
+        "id": "I02",
+        "value": 0.4832464797,
+        "igest": 0.5434411453
+    },
+    {
+        "court": "5ª Vara do Trabalho de Vitória",
+        "id": "I01",
+        "value": 0.5675574473,
+        "igest": 0.5434411453
+    },
+    {
+        "court": "5ª Vara do Trabalho de Vitória",
+        "id": "I03",
+        "value": 0,
+        "igest": 0.5434411453
+    },
+    {
+        "court": "6ª Vara do Trabalho de Vitória",
+        "id": "I04",
+        "value": 0.5362549775,
+        "igest": 0.5013683769
+    },
+    {
+        "court": "6ª Vara do Trabalho de Vitória",
+        "id": "I06",
+        "value": 0.9059025096,
+        "igest": 0.5013683769
+    },
+    {
+        "court": "6ª Vara do Trabalho de Vitória",
+        "id": "I05",
+        "value": 0.6737062368,
+        "igest": 0.5013683769
+    },
+    {
+        "court": "6ª Vara do Trabalho de Vitória",
+        "id": "I08",
+        "value": 0.5386515353,
+        "igest": 0.5013683769
+    },
+    {
+        "court": "6ª Vara do Trabalho de Vitória",
+        "id": "I09",
+        "value": 0.4929474609,
+        "igest": 0.5013683769
+    },
+    {
+        "court": "6ª Vara do Trabalho de Vitória",
+        "id": "I10",
+        "value": 0.4664672032,
+        "igest": 0.5013683769
+    },
+    {
+        "court": "6ª Vara do Trabalho de Vitória",
+        "id": "I11",
+        "value": 0.4258893636,
+        "igest": 0.5013683769
+    },
+    {
+        "court": "6ª Vara do Trabalho de Vitória",
+        "id": "I12",
+        "value": 0.6348277605,
+        "igest": 0.5013683769
+    },
+    {
+        "court": "6ª Vara do Trabalho de Vitória",
+        "id": "I01",
+        "value": 0.5787037288,
+        "igest": 0.5013683769
+    },
+    {
+        "court": "6ª Vara do Trabalho de Vitória",
+        "id": "I02",
+        "value": 0.4071404812,
+        "igest": 0.5013683769
+    },
+    {
+        "court": "6ª Vara do Trabalho de Vitória",
+        "id": "I07",
+        "value": 0.387355574,
+        "igest": 0.5013683769
+    },
+    {
+        "court": "6ª Vara do Trabalho de Vitória",
+        "id": "I03",
+        "value": 0,
+        "igest": 0.5013683769
+    },
+    {
+        "court": "7ª Vara do Trabalho de Vitória",
+        "id": "I10",
+        "value": 0.5566981891,
+        "igest": 0.4064623801
+    },
+    {
+        "court": "7ª Vara do Trabalho de Vitória",
+        "id": "I06",
+        "value": 0.7857724484,
+        "igest": 0.4064623801
+    },
+    {
+        "court": "7ª Vara do Trabalho de Vitória",
+        "id": "I09",
+        "value": 0.4459115642,
+        "igest": 0.4064623801
+    },
+    {
+        "court": "7ª Vara do Trabalho de Vitória",
+        "id": "I07",
+        "value": 0.4965962175,
+        "igest": 0.4064623801
+    },
+    {
+        "court": "7ª Vara do Trabalho de Vitória",
+        "id": "I08",
+        "value": 0.3911873621,
+        "igest": 0.4064623801
+    },
+    {
+        "court": "7ª Vara do Trabalho de Vitória",
+        "id": "I05",
+        "value": 0.4839902143,
+        "igest": 0.4064623801
+    },
+    {
+        "court": "7ª Vara do Trabalho de Vitória",
+        "id": "I11",
+        "value": 0.3154736027,
+        "igest": 0.4064623801
+    },
+    {
+        "court": "7ª Vara do Trabalho de Vitória",
+        "id": "I12",
+        "value": 0.5017661774,
+        "igest": 0.4064623801
+    },
+    {
+        "court": "7ª Vara do Trabalho de Vitória",
+        "id": "I04",
+        "value": 0.2439352054,
+        "igest": 0.4064623801
+    },
+    {
+        "court": "7ª Vara do Trabalho de Vitória",
+        "id": "I02",
+        "value": 0.36190265,
+        "igest": 0.4064623801
+    },
+    {
+        "court": "7ª Vara do Trabalho de Vitória",
+        "id": "I01",
+        "value": 0.3601939923,
+        "igest": 0.4064623801
+    },
+    {
+        "court": "7ª Vara do Trabalho de Vitória",
+        "id": "I03",
+        "value": 0,
+        "igest": 0.4064623801
+    },
+    {
+        "court": "8ª Vara do Trabalho de Vitória",
+        "id": "I09",
+        "value": 0.5560276924,
+        "igest": 0.5223509149
+    },
+    {
+        "court": "8ª Vara do Trabalho de Vitória",
+        "id": "I03",
+        "value": 0.9099932931,
+        "igest": 0.5223509149
+    },
+    {
+        "court": "8ª Vara do Trabalho de Vitória",
+        "id": "I04",
+        "value": 0.427152626,
+        "igest": 0.5223509149
+    },
+    {
+        "court": "8ª Vara do Trabalho de Vitória",
+        "id": "I06",
+        "value": 0.848078,
+        "igest": 0.5223509149
+    },
+    {
+        "court": "8ª Vara do Trabalho de Vitória",
+        "id": "I10",
+        "value": 0.4881589537,
+        "igest": 0.5223509149
+    },
+    {
+        "court": "8ª Vara do Trabalho de Vitória",
+        "id": "I08",
+        "value": 0.4805042188,
+        "igest": 0.5223509149
+    },
+    {
+        "court": "8ª Vara do Trabalho de Vitória",
+        "id": "I11",
+        "value": 0.4499294644,
+        "igest": 0.5223509149
+    },
+    {
+        "court": "8ª Vara do Trabalho de Vitória",
+        "id": "I05",
+        "value": 0.5220851652,
+        "igest": 0.5223509149
+    },
+    {
+        "court": "8ª Vara do Trabalho de Vitória",
+        "id": "I02",
+        "value": 0.4731344938,
+        "igest": 0.5223509149
+    },
+    {
+        "court": "8ª Vara do Trabalho de Vitória",
+        "id": "I12",
+        "value": 0.5749897112,
+        "igest": 0.5223509149
+    },
+    {
+        "court": "8ª Vara do Trabalho de Vitória",
+        "id": "I01",
+        "value": 0.4827547343,
+        "igest": 0.5223509149
+    },
+    {
+        "court": "8ª Vara do Trabalho de Vitória",
+        "id": "I07",
+        "value": 0.3133006225,
+        "igest": 0.5223509149
+    },
+    {
+        "court": "9ª Vara do Trabalho de Vitória",
+        "id": "I11",
+        "value": 0.7123930048,
+        "igest": 0.6215137312
+    },
+    {
+        "court": "9ª Vara do Trabalho de Vitória",
+        "id": "I08",
+        "value": 0.7030493175,
+        "igest": 0.6215137312
+    },
+    {
+        "court": "9ª Vara do Trabalho de Vitória",
+        "id": "I04",
+        "value": 0.5542509953,
+        "igest": 0.6215137312
+    },
+    {
+        "court": "9ª Vara do Trabalho de Vitória",
+        "id": "I05",
+        "value": 0.8140305862,
+        "igest": 0.6215137312
+    },
+    {
+        "court": "9ª Vara do Trabalho de Vitória",
+        "id": "I09",
+        "value": 0.6102152226,
+        "igest": 0.6215137312
+    },
+    {
+        "court": "9ª Vara do Trabalho de Vitória",
+        "id": "I03",
+        "value": 1,
+        "igest": 0.6215137312
+    },
+    {
+        "court": "9ª Vara do Trabalho de Vitória",
+        "id": "I02",
+        "value": 0.6129282626,
+        "igest": 0.6215137312
+    },
+    {
+        "court": "9ª Vara do Trabalho de Vitória",
+        "id": "I10",
+        "value": 0.4045425889,
+        "igest": 0.6215137312
+    },
+    {
+        "court": "9ª Vara do Trabalho de Vitória",
+        "id": "I06",
+        "value": 0.6594765905,
+        "igest": 0.6215137312
+    },
+    {
+        "court": "9ª Vara do Trabalho de Vitória",
+        "id": "I01",
+        "value": 0.6362006315,
+        "igest": 0.6215137312
+    },
+    {
+        "court": "9ª Vara do Trabalho de Vitória",
+        "id": "I07",
+        "value": 0.4443438865,
+        "igest": 0.6215137312
+    },
+    {
+        "court": "9ª Vara do Trabalho de Vitória",
+        "id": "I12",
+        "value": 0.4089791046,
+        "igest": 0.6215137312
+    },
+    {
+        "court": "1ª Vara do Trabalho de Cachoeiro de Itapemirim",
+        "id": "I11",
+        "value": 0.5532386341,
+        "igest": 0.4153981112
+    },
+    {
+        "court": "1ª Vara do Trabalho de Cachoeiro de Itapemirim",
+        "id": "I09",
+        "value": 0.5399460261,
+        "igest": 0.4153981112
+    },
+    {
+        "court": "1ª Vara do Trabalho de Cachoeiro de Itapemirim",
+        "id": "I05",
+        "value": 0.6498207367,
+        "igest": 0.4153981112
+    },
+    {
+        "court": "1ª Vara do Trabalho de Cachoeiro de Itapemirim",
+        "id": "I07",
+        "value": 0.557741266,
+        "igest": 0.4153981112
+    },
+    {
+        "court": "1ª Vara do Trabalho de Cachoeiro de Itapemirim",
+        "id": "I08",
+        "value": 0.3824005518,
+        "igest": 0.4153981112
+    },
+    {
+        "court": "1ª Vara do Trabalho de Cachoeiro de Itapemirim",
+        "id": "I02",
+        "value": 0.4231067746,
+        "igest": 0.4153981112
+    },
+    {
+        "court": "1ª Vara do Trabalho de Cachoeiro de Itapemirim",
+        "id": "I06",
+        "value": 0.5532242366,
+        "igest": 0.4153981112
+    },
+    {
+        "court": "1ª Vara do Trabalho de Cachoeiro de Itapemirim",
+        "id": "I04",
+        "value": 0.2582216512,
+        "igest": 0.4153981112
+    },
+    {
+        "court": "1ª Vara do Trabalho de Cachoeiro de Itapemirim",
+        "id": "I10",
+        "value": 0.3088108652,
+        "igest": 0.4153981112
+    },
+    {
+        "court": "1ª Vara do Trabalho de Cachoeiro de Itapemirim",
+        "id": "I12",
+        "value": 0.4329768306,
+        "igest": 0.4153981112
+    },
+    {
+        "court": "1ª Vara do Trabalho de Cachoeiro de Itapemirim",
+        "id": "I01",
+        "value": 0.2724389861,
+        "igest": 0.4153981112
+    },
+    {
+        "court": "1ª Vara do Trabalho de Cachoeiro de Itapemirim",
+        "id": "I03",
+        "value": 0,
+        "igest": 0.4153981112
+    },
+    {
+        "court": "2ª Vara do Trabalho de Cachoeiro de Itapemirim",
+        "id": "I11",
+        "value": 1,
+        "igest": 0.5620434634
+    },
+    {
+        "court": "2ª Vara do Trabalho de Cachoeiro de Itapemirim",
+        "id": "I09",
+        "value": 0.7845064096,
+        "igest": 0.5620434634
+    },
+    {
+        "court": "2ª Vara do Trabalho de Cachoeiro de Itapemirim",
+        "id": "I02",
+        "value": 0.7683335181,
+        "igest": 0.5620434634
+    },
+    {
+        "court": "2ª Vara do Trabalho de Cachoeiro de Itapemirim",
+        "id": "I12",
+        "value": 0.9095404739,
+        "igest": 0.5620434634
+    },
+    {
+        "court": "2ª Vara do Trabalho de Cachoeiro de Itapemirim",
+        "id": "I05",
+        "value": 0.6737634301,
+        "igest": 0.5620434634
+    },
+    {
+        "court": "2ª Vara do Trabalho de Cachoeiro de Itapemirim",
+        "id": "I04",
+        "value": 0.4391372517,
+        "igest": 0.5620434634
+    },
+    {
+        "court": "2ª Vara do Trabalho de Cachoeiro de Itapemirim",
+        "id": "I08",
+        "value": 0.4877116534,
+        "igest": 0.5620434634
+    },
+    {
+        "court": "2ª Vara do Trabalho de Cachoeiro de Itapemirim",
+        "id": "I06",
+        "value": 0.6022537224,
+        "igest": 0.5620434634
+    },
+    {
+        "court": "2ª Vara do Trabalho de Cachoeiro de Itapemirim",
+        "id": "I10",
+        "value": 0.2830482897,
+        "igest": 0.5620434634
+    },
+    {
+        "court": "2ª Vara do Trabalho de Cachoeiro de Itapemirim",
+        "id": "I01",
+        "value": 0.4250685462,
+        "igest": 0.5620434634
+    },
+    {
+        "court": "2ª Vara do Trabalho de Cachoeiro de Itapemirim",
+        "id": "I07",
+        "value": 0.2780104692,
+        "igest": 0.5620434634
+    },
+    {
+        "court": "2ª Vara do Trabalho de Cachoeiro de Itapemirim",
+        "id": "I03",
+        "value": 0,
+        "igest": 0.5620434634
+    },
+    {
+        "court": "Vara do Trabalho de Aracruz",
+        "id": "I08",
+        "value": 0.9001662158,
+        "igest": 0.5719581925
+    },
+    {
+        "court": "Vara do Trabalho de Aracruz",
+        "id": "I04",
+        "value": 0.5956668554,
+        "igest": 0.5719581925
+    },
+    {
+        "court": "Vara do Trabalho de Aracruz",
+        "id": "I07",
+        "value": 0.702361748,
+        "igest": 0.5719581925
+    },
+    {
+        "court": "Vara do Trabalho de Aracruz",
+        "id": "I10",
+        "value": 0.5489074447,
+        "igest": 0.5719581925
+    },
+    {
+        "court": "Vara do Trabalho de Aracruz",
+        "id": "I11",
+        "value": 0.4887521183,
+        "igest": 0.5719581925
+    },
+    {
+        "court": "Vara do Trabalho de Aracruz",
+        "id": "I01",
+        "value": 0.7950531257,
+        "igest": 0.5719581925
+    },
+    {
+        "court": "Vara do Trabalho de Aracruz",
+        "id": "I03",
+        "value": 0.7806315014,
+        "igest": 0.5719581925
+    },
+    {
+        "court": "Vara do Trabalho de Aracruz",
+        "id": "I12",
+        "value": 0.6778509616,
+        "igest": 0.5719581925
+    },
+    {
+        "court": "Vara do Trabalho de Aracruz",
+        "id": "I09",
+        "value": 0.3857493061,
+        "igest": 0.5719581925
+    },
+    {
+        "court": "Vara do Trabalho de Aracruz",
+        "id": "I02",
+        "value": 0.3737886684,
+        "igest": 0.5719581925
+    },
+    {
+        "court": "Vara do Trabalho de Aracruz",
+        "id": "I06",
+        "value": 0.4652215437,
+        "igest": 0.5719581925
+    },
+    {
+        "court": "Vara do Trabalho de Aracruz",
+        "id": "I05",
+        "value": 0.236290002,
+        "igest": 0.5719581925
+    },
+    {
+        "court": "Vara do Trabalho de Colatina",
+        "id": "I09",
+        "value": 0.6712060656,
+        "igest": 0.4818228972
+    },
+    {
+        "court": "Vara do Trabalho de Colatina",
+        "id": "I05",
+        "value": 0.715563802,
+        "igest": 0.4818228972
+    },
+    {
+        "court": "Vara do Trabalho de Colatina",
+        "id": "I10",
+        "value": 0.55601718,
+        "igest": 0.4818228972
+    },
+    {
+        "court": "Vara do Trabalho de Colatina",
+        "id": "I04",
+        "value": 0.4080067345,
+        "igest": 0.4818228972
+    },
+    {
+        "court": "Vara do Trabalho de Colatina",
+        "id": "I11",
+        "value": 0.4759226205,
+        "igest": 0.4818228972
+    },
+    {
+        "court": "Vara do Trabalho de Colatina",
+        "id": "I02",
+        "value": 0.5914624681,
+        "igest": 0.4818228972
+    },
+    {
+        "court": "Vara do Trabalho de Colatina",
+        "id": "I08",
+        "value": 0.4192135307,
+        "igest": 0.4818228972
+    },
+    {
+        "court": "Vara do Trabalho de Colatina",
+        "id": "I06",
+        "value": 0.6926113896,
+        "igest": 0.4818228972
+    },
+    {
+        "court": "Vara do Trabalho de Colatina",
+        "id": "I07",
+        "value": 0.3384278253,
+        "igest": 0.4818228972
+    },
+    {
+        "court": "Vara do Trabalho de Colatina",
+        "id": "I01",
+        "value": 0.4140166071,
+        "igest": 0.4818228972
+    },
+    {
+        "court": "Vara do Trabalho de Colatina",
+        "id": "I12",
+        "value": 0.3765356984,
+        "igest": 0.4818228972
+    },
+    {
+        "court": "Vara do Trabalho de Colatina",
+        "id": "I03",
+        "value": 0,
+        "igest": 0.4818228972
+    },
+    {
+        "court": "Vara do Trabalho de Guarapari",
+        "id": "I07",
+        "value": 0.7578638735,
+        "igest": 0.4001036336
+    },
+    {
+        "court": "Vara do Trabalho de Guarapari",
+        "id": "I08",
+        "value": 0.5368290798,
+        "igest": 0.4001036336
+    },
+    {
+        "court": "Vara do Trabalho de Guarapari",
+        "id": "I10",
+        "value": 0.5278370221,
+        "igest": 0.4001036336
+    },
+    {
+        "court": "Vara do Trabalho de Guarapari",
+        "id": "I06",
+        "value": 0.6930063552,
+        "igest": 0.4001036336
+    },
+    {
+        "court": "Vara do Trabalho de Guarapari",
+        "id": "I04",
+        "value": 0.3115503466,
+        "igest": 0.4001036336
+    },
+    {
+        "court": "Vara do Trabalho de Guarapari",
+        "id": "I05",
+        "value": 0.3975731463,
+        "igest": 0.4001036336
+    },
+    {
+        "court": "Vara do Trabalho de Guarapari",
+        "id": "I01",
+        "value": 0.4966393844,
+        "igest": 0.4001036336
+    },
+    {
+        "court": "Vara do Trabalho de Guarapari",
+        "id": "I11",
+        "value": 0.274802251,
+        "igest": 0.4001036336
+    },
+    {
+        "court": "Vara do Trabalho de Guarapari",
+        "id": "I02",
+        "value": 0.3152455926,
+        "igest": 0.4001036336
+    },
+    {
+        "court": "Vara do Trabalho de Guarapari",
+        "id": "I09",
+        "value": 0.2426348259,
+        "igest": 0.4001036336
+    },
+    {
+        "court": "Vara do Trabalho de Guarapari",
+        "id": "I12",
+        "value": 0.2578986788,
+        "igest": 0.4001036336
+    },
+    {
+        "court": "Vara do Trabalho de Guarapari",
+        "id": "I03",
+        "value": 0,
+        "igest": 0.4001036336
+    },
+    {
+        "court": "Vara do Trabalho de Linhares",
+        "id": "I08",
+        "value": 0.5826549198,
+        "igest": 0.3974908184
+    },
+    {
+        "court": "Vara do Trabalho de Linhares",
+        "id": "I10",
+        "value": 0.4972760563,
+        "igest": 0.3974908184
+    },
+    {
+        "court": "Vara do Trabalho de Linhares",
+        "id": "I07",
+        "value": 0.6011196728,
+        "igest": 0.3974908184
+    },
+    {
+        "court": "Vara do Trabalho de Linhares",
+        "id": "I04",
+        "value": 0.3761642411,
+        "igest": 0.3974908184
+    },
+    {
+        "court": "Vara do Trabalho de Linhares",
+        "id": "I06",
+        "value": 0.5820212716,
+        "igest": 0.3974908184
+    },
+    {
+        "court": "Vara do Trabalho de Linhares",
+        "id": "I01",
+        "value": 0.5294349062,
+        "igest": 0.3974908184
+    },
+    {
+        "court": "Vara do Trabalho de Linhares",
+        "id": "I05",
+        "value": 0.3755955692,
+        "igest": 0.3974908184
+    },
+    {
+        "court": "Vara do Trabalho de Linhares",
+        "id": "I11",
+        "value": 0.2996999226,
+        "igest": 0.3974908184
+    },
+    {
+        "court": "Vara do Trabalho de Linhares",
+        "id": "I12",
+        "value": 0.3931509772,
+        "igest": 0.3974908184
+    },
+    {
+        "court": "Vara do Trabalho de Linhares",
+        "id": "I09",
+        "value": 0.2305386975,
+        "igest": 0.3974908184
+    },
+    {
+        "court": "Vara do Trabalho de Linhares",
+        "id": "I02",
+        "value": 0.2865062646,
+        "igest": 0.3974908184
+    },
+    {
+        "court": "Vara do Trabalho de Linhares",
+        "id": "I03",
+        "value": 0,
+        "igest": 0.3974908184
+    },
+    {
+        "court": "Vara do Trabalho de Nova Venécia",
+        "id": "I03",
+        "value": 1,
+        "igest": 0.4689485306
+    },
+    {
+        "court": "Vara do Trabalho de Nova Venécia",
+        "id": "I11",
+        "value": 0.5734196661,
+        "igest": 0.4689485306
+    },
+    {
+        "court": "Vara do Trabalho de Nova Venécia",
+        "id": "I04",
+        "value": 0.4439094975,
+        "igest": 0.4689485306
+    },
+    {
+        "court": "Vara do Trabalho de Nova Venécia",
+        "id": "I08",
+        "value": 0.5082760429,
+        "igest": 0.4689485306
+    },
+    {
+        "court": "Vara do Trabalho de Nova Venécia",
+        "id": "I05",
+        "value": 0.6081106682,
+        "igest": 0.4689485306
+    },
+    {
+        "court": "Vara do Trabalho de Nova Venécia",
+        "id": "I07",
+        "value": 0.5459140815,
+        "igest": 0.4689485306
+    },
+    {
+        "court": "Vara do Trabalho de Nova Venécia",
+        "id": "I09",
+        "value": 0.4818077434,
+        "igest": 0.4689485306
+    },
+    {
+        "court": "Vara do Trabalho de Nova Venécia",
+        "id": "I10",
+        "value": 0.2988245473,
+        "igest": 0.4689485306
+    },
+    {
+        "court": "Vara do Trabalho de Nova Venécia",
+        "id": "I01",
+        "value": 0.4853153304,
+        "igest": 0.4689485306
+    },
+    {
+        "court": "Vara do Trabalho de Nova Venécia",
+        "id": "I02",
+        "value": 0.2740880364,
+        "igest": 0.4689485306
+    },
+    {
+        "court": "Vara do Trabalho de Nova Venécia",
+        "id": "I06",
+        "value": 0.2460478313,
+        "igest": 0.4689485306
+    },
+    {
+        "court": "Vara do Trabalho de Nova Venécia",
+        "id": "I12",
+        "value": 0.188596305,
+        "igest": 0.4689485306
+    },
+    {
+        "court": "Vara do Trabalho de São Mateus",
+        "id": "I04",
+        "value": 0.7497338348,
+        "igest": 0.4981755551
+    },
+    {
+        "court": "Vara do Trabalho de São Mateus",
+        "id": "I05",
+        "value": 0.88498203,
+        "igest": 0.4981755551
+    },
+    {
+        "court": "Vara do Trabalho de São Mateus",
+        "id": "I11",
+        "value": 0.5144487835,
+        "igest": 0.4981755551
+    },
+    {
+        "court": "Vara do Trabalho de São Mateus",
+        "id": "I08",
+        "value": 0.4947714453,
+        "igest": 0.4981755551
+    },
+    {
+        "court": "Vara do Trabalho de São Mateus",
+        "id": "I09",
+        "value": 0.4788412479,
+        "igest": 0.4981755551
+    },
+    {
+        "court": "Vara do Trabalho de São Mateus",
+        "id": "I06",
+        "value": 0.6988863408,
+        "igest": 0.4981755551
+    },
+    {
+        "court": "Vara do Trabalho de São Mateus",
+        "id": "I01",
+        "value": 0.6430055966,
+        "igest": 0.4981755551
+    },
+    {
+        "court": "Vara do Trabalho de São Mateus",
+        "id": "I10",
+        "value": 0.3585063716,
+        "igest": 0.4981755551
+    },
+    {
+        "court": "Vara do Trabalho de São Mateus",
+        "id": "I02",
+        "value": 0.4426211332,
+        "igest": 0.4981755551
+    },
+    {
+        "court": "Vara do Trabalho de São Mateus",
+        "id": "I07",
+        "value": 0.316770291,
+        "igest": 0.4981755551
+    },
+    {
+        "court": "Vara do Trabalho de São Mateus",
+        "id": "I12",
+        "value": 0.1914552914,
+        "igest": 0.4981755551
+    },
+    {
+        "court": "Vara do Trabalho de São Mateus",
+        "id": "I03",
+        "value": 0,
+        "igest": 0.4981755551
+    },
+    {
+        "court": "Vara do Trabalho de Venda Nova do Imigrante",
+        "id": "I10",
+        "value": 0.6838289738,
+        "igest": 0.4071198218
+    },
+    {
+        "court": "Vara do Trabalho de Venda Nova do Imigrante",
+        "id": "I03",
+        "value": 0.8847157016,
+        "igest": 0.4071198218
+    },
+    {
+        "court": "Vara do Trabalho de Venda Nova do Imigrante",
+        "id": "I09",
+        "value": 0.4193159729,
+        "igest": 0.4071198218
+    },
+    {
+        "court": "Vara do Trabalho de Venda Nova do Imigrante",
+        "id": "I07",
+        "value": 0.4657787463,
+        "igest": 0.4071198218
+    },
+    {
+        "court": "Vara do Trabalho de Venda Nova do Imigrante",
+        "id": "I06",
+        "value": 0.5711697464,
+        "igest": 0.4071198218
+    },
+    {
+        "court": "Vara do Trabalho de Venda Nova do Imigrante",
+        "id": "I08",
+        "value": 0.335226737,
+        "igest": 0.4071198218
+    },
+    {
+        "court": "Vara do Trabalho de Venda Nova do Imigrante",
+        "id": "I04",
+        "value": 0.2506298531,
+        "igest": 0.4071198218
+    },
+    {
+        "court": "Vara do Trabalho de Venda Nova do Imigrante",
+        "id": "I12",
+        "value": 0.5011414462,
+        "igest": 0.4071198218
+    },
+    {
+        "court": "Vara do Trabalho de Venda Nova do Imigrante",
+        "id": "I05",
+        "value": 0.3192291052,
+        "igest": 0.4071198218
+    },
+    {
+        "court": "Vara do Trabalho de Venda Nova do Imigrante",
+        "id": "I01",
+        "value": 0.3973622278,
+        "igest": 0.4071198218
+    },
+    {
+        "court": "Vara do Trabalho de Venda Nova do Imigrante",
+        "id": "I11",
+        "value": 0.1898143694,
+        "igest": 0.4071198218
+    },
+    {
+        "court": "Vara do Trabalho de Venda Nova do Imigrante",
+        "id": "I02",
+        "value": 0.127020734,
+        "igest": 0.4071198218
+    },
+    {
+        "court": "Vara do Trabalho de Pedro Canário",
+        "id": "I04",
+        "value": 0.100,
+        "igest": 0.100
+    },
+    {
+        "court": "Vara do Trabalho de Pedro Canário",
+        "id": "I08",
+        "value": 0.100,
+        "igest": 0.100
+    },
+    {
+        "court": "Vara do Trabalho de Pedro Canário",
+        "id": "I09",
+        "value": 0.100,
+        "igest": 0.100
+    },
+    {
+        "court": "Vara do Trabalho de Pedro Canário",
+        "id": "I10",
+        "value": 0.100,
+        "igest": 0.100
+    },
+    {
+        "court": "Vara do Trabalho de Pedro Canário",
+        "id": "I11",
+        "value": 0.100,
+        "igest": 0.100
+    },
+    {
+        "court": "Vara do Trabalho de Pedro Canário",
+        "id": "I01",
+        "value": 0.100,
+        "igest": 0.100
+    },
+    {
+        "court": "Vara do Trabalho de Pedro Canário",
+        "id": "I02",
+        "value": 0.100,
+        "igest": 0.100
+    },
+    {
+        "court": "Vara do Trabalho de Pedro Canário",
+        "id": "I05",
+        "value": 0.100,
+        "igest": 0.100
+    },
+    {
+        "court": "Vara do Trabalho de Pedro Canário",
+        "id": "I07",
+        "value": 0.100,
+        "igest": 0.100
+    },
+    {
+        "court": "Vara do Trabalho de Pedro Canário",
+        "id": "I03",
+        "value": 0.100,
+        "igest": 0.100
+    },
+    {
+        "court": "Vara do Trabalho de Pedro Canário",
+        "id": "I06",
+        "value": 0.100,
+        "igest": 0.100
+    },
+    {
+        "court": "Vara do Trabalho de Pedro Canário",
+        "id": "I12",
+        "value": 0.100,
+        "igest": 0.100
     }
 ]

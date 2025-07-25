@@ -1,26 +1,102 @@
 [
-    "Vara do Trabalho de Aracruz",
-    "1ª Vara do Trabalho de Cachoeiro de Itapemirim",
-    "2ª Vara do Trabalho de Cachoeiro de Itapemirim",
-    "Vara do Trabalho de Colatina",
-    "Vara do Trabalho de Guarapari",
-    "Vara do Trabalho de Linhares",
-    "Vara do Trabalho de Nova Venécia",
-    "Vara do Trabalho de São Mateus",
-    "Vara do Trabalho de Venda Nova do Imigrante",
-    "1ª Vara do Trabalho de Vitória",
-    "2ª Vara do Trabalho de Vitória",
-    "3ª Vara do Trabalho de Vitória",
-    "4ª Vara do Trabalho de Vitória",
-    "5ª Vara do Trabalho de Vitória",
-    "6ª Vara do Trabalho de Vitória",
-    "7ª Vara do Trabalho de Vitória",
-    "8ª Vara do Trabalho de Vitória",
-    "9ª Vara do Trabalho de Vitória",
-    "10ª Vara do Trabalho de Vitória",
-    "11ª Vara do Trabalho de Vitória",
-    "12ª Vara do Trabalho de Vitória",
-    "13ª Vara do Trabalho de Vitória",
-    "14ª Vara do Trabalho de Vitória",
-    "15ª Vara do Trabalho de Vitória"
+    {
+        "id": 1,
+        "name": "Vara do Trabalho de Aracruz"
+    },
+    {
+        "id": 2,
+        "name": "1ª Vara do Trabalho de Cachoeiro de Itapemirim"
+    },
+    {
+        "id": 3,
+        "name": "2ª Vara do Trabalho de Cachoeiro de Itapemirim"
+    },
+    {
+        "id": 4,
+        "name": "Vara do Trabalho de Colatina"
+    },
+    {
+        "id": 5,
+        "name": "Vara do Trabalho de Guarapari"
+    },
+    {
+        "id": 6,
+        "name": "Vara do Trabalho de Linhares"
+    },
+    {
+        "id": 7,
+        "name": "Vara do Trabalho de Nova Venécia"
+    },
+    {
+        "id": 8,
+        "name": "Vara do Trabalho de São Mateus"
+    },
+    {
+        "id": 9,
+        "name": "Vara do Trabalho de Venda Nova do Imigrante"
+    },
+    {
+        "id": 10,
+        "name": "Vara do Trabalho de Pedro Canário"
+    },
+    {
+        "id": 11,
+        "name": "1ª Vara do Trabalho de Vitória"
+    },
+    {
+        "id": 12,
+        "name": "2ª Vara do Trabalho de Vitória"
+    },
+    {
+        "id": 13,
+        "name": "3ª Vara do Trabalho de Vitória"
+    },
+    {
+        "id": 14,
+        "name": "4ª Vara do Trabalho de Vitória"
+    },
+    {
+        "id": 15,
+        "name": "5ª Vara do Trabalho de Vitória"
+    },
+    {
+        "id": 16,
+        "name": "6ª Vara do Trabalho de Vitória"
+    },
+    {
+        "id": 17,
+        "name": "7ª Vara do Trabalho de Vitória"
+    },
+    {
+        "id": 18,
+        "name": "8ª Vara do Trabalho de Vitória"
+    },
+    {
+        "id": 19,
+        "name": "9ª Vara do Trabalho de Vitória"
+    },
+    {
+        "id": 20,
+        "name": "10ª Vara do Trabalho de Vitória"
+    },
+    {
+        "id": 21,
+        "name": "11ª Vara do Trabalho de Vitória"
+    },
+    {
+        "id": 22,
+        "name": "12ª Vara do Trabalho de Vitória"
+    },
+    {
+        "id": 23,
+        "name": "13ª Vara do Trabalho de Vitória"
+    },
+    {
+        "id": 24,
+        "name": "14ª Vara do Trabalho de Vitória"
+    },
+    {
+        "id": 25,
+        "name": "15ª Vara do Trabalho de Vitória"
+    }
 ]

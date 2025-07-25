@@ -12,26 +12,29 @@ const quartileColors: Record<QuartileKey, string> = {
   fourth: 'blue'
 };
 
-function getColorByValue(igest: Igest) {
-  const quartile = igest.getQuartile();
-  const color = quartileColors[quartile];
+function getColorByValue(igest: Igest, quartile: Quartile) {
+  const quartileKey = igest.getQuartile(quartile);
+  const color = quartileColors[quartileKey];
   return getColorClass(color);
 }
 
-function getColorClass(color: string) {
+function getColorClass(color: 'green' | 'amber' | 'red' | 'blue' | string) {
   return `bg-${color}-100 text-${color}-800`;
 }
 
 interface IgestViewProps {
   title: string;
   igest: Igest;
+  quartile: Quartile;
 }
 
-export default function IgestView({title, igest}: IgestViewProps) {
-  const [colorClass, setColorClass] = useState(getColorByValue(igest));
+export default function IgestView({title, igest, quartile}: IgestViewProps) {
+  const [colorClass, setColorClass] = useState(
+    getColorByValue(igest, quartile)
+  );
 
   useEffect(() => {
-    setColorClass(getColorByValue(igest));
+    setColorClass(getColorByValue(igest, quartile));
   }, [igest.value]);
 
   if (!igest) {

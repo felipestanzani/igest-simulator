@@ -24,7 +24,7 @@ function getColorByValue(
   indicator: Indicator,
   definition: IndicatorDefinition
 ) {
-  const quartile = indicator.getQuartile(definition);
+  const quartile = indicator.getQuartile(definition.quartiles);
   const color = quartileColors[quartile];
   return getColorClass(color);
 }
@@ -43,9 +43,7 @@ export default function IndicatorView({igest, indicator}: IndicatorViewProps) {
   function setValueAndColor(newValue: number) {
     indicator.setCurrentValue(newValue);
     setValue(newValue);
-    const quartile = indicator.getQuartile(definition);
-    const color = quartileColors[quartile];
-    setColorClass(getColorClass(color));
+    setColorClass(getColorByValue(indicator, definition));
   }
 
   return (
@@ -75,7 +73,7 @@ export default function IndicatorView({igest, indicator}: IndicatorViewProps) {
             <div className="flex flex-col items-center justify-center w-18">
               <span className="text-xs">Impacto</span>
               <span className="text-xs font-bold">
-                {indicator.getImpact(definition, igest) + '%'}
+                {indicator.getImpact(igest) + '%'}
               </span>
             </div>
           </div>
