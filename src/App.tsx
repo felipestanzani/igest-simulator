@@ -13,13 +13,13 @@ import IgestView from '@/components/igest-view';
 import {Igest} from '@/types/igest';
 import Legend from '@/components/legend';
 import useCourts, {getCourt} from '@/hooks/court-hook';
+import SimulatedIndicatorView from './components/simulated-indicator-view';
 
 export default function App() {
   const {courts} = useCourts();
   const {igestQuartiles} = useIgest();
   const [selectedCourt, setSelectedCourt] = useState<Court | null>(null);
   const [igest, setIgest] = useState<Igest | null>(null);
-  // New: state for indicator values
   const [indicatorValues, setIndicatorValues] = useState<
     Record<string, number>
   >({});
@@ -29,7 +29,6 @@ export default function App() {
     setSelectedCourt(court);
     if (court) {
       setIgest(court.igest);
-      // Reset indicator values for new court
       const values: Record<string, number> = {};
       court.indicators.forEach((indicator) => {
         values[indicator.id] = indicator.initialValue;
@@ -38,7 +37,6 @@ export default function App() {
     }
   }
 
-  // New: update indicator value in state
   function handleIndicatorValueChange(indicatorId: string, value: number) {
     setIndicatorValues((prev) => ({...prev, [indicatorId]: value}));
   }
@@ -76,11 +74,17 @@ export default function App() {
           />
           <Legend />
         </div>
-        <Indicators
-          selectedCourt={selectedCourt}
-          indicatorValues={indicatorValues}
-          onIndicatorValueChange={handleIndicatorValueChange}
-        />
+        <div className="flex flex-row items-center justify-between space-x-16">
+          <Indicators
+            selectedCourt={selectedCourt}
+            indicatorValues={indicatorValues}
+            onIndicatorValueChange={handleIndicatorValueChange}
+          />
+          <SimulatedIndicators
+            selectedCourt={selectedCourt}
+            indicatorValues={indicatorValues}
+          />
+        </div>
       </div>
     </div>
   );
@@ -132,6 +136,37 @@ function Indicators({
             }
           />
         ))}
+    </div>
+  );
+}
+
+function SimulatedIndicators({
+  selectedCourt,
+  indicatorValues
+}: {
+  selectedCourt: Court | null;
+  indicatorValues: Record<string, number>;
+}) {
+  if (!selectedCourt) return null;
+  const sortedIndicators = [...selectedCourt.indicators].sort((a, b) => {
+    const aValue = indicatorValues[a.id] ?? a.initialValue;
+    const bValue = indicatorValues[b.id] ?? b.initialValue;
+    a.setCurrentValue(aValue);
+    b.setCurrentValue(bValue);
+    const aImpact = parseFloat(a.getImpact(selectedCourt.igest.value));
+    const bImpact = parseFloat(b.getImpact(selectedCourt.igest.value));
+    return bImpact - aImpact;
+  });
+  return (
+    <div className="flex flex-col items-left justify-center w-2xl space-y-1">
+      {sortedIndicators.map((indicator) => (
+        <SimulatedIndicatorView
+          key={indicator.id + selectedCourt.id.toString()}
+          indicator={indicator}
+          igest={selectedCourt.igest.value}
+          value={indicatorValues[indicator.id] ?? indicator.initialValue}
+        />
+      ))}
     </div>
   );
 }
