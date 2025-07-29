@@ -4,6 +4,7 @@ import {Slider} from '@/components/ui/slider';
 import {cn} from '@/lib/utils';
 import {Input} from './ui/input';
 import {Quartile} from '@/types/quartile';
+import {useState, useEffect, useRef} from 'react';
 
 interface IndicatorViewProps {
   igest: number;
@@ -41,9 +42,14 @@ export default function IndicatorView({
   onValueChange
 }: IndicatorViewProps) {
   const {definition} = useIndicator(indicator);
-  // Remove local value state, use prop instead
-  // Remove local colorClass state, recalculate on render
-  // Fix: clone indicator and set value for color calculation
+  const [inputValue, setInputValue] = useState(value.toFixed(3));
+  const debounceTimeoutRef = useRef<NodeJS.Timeout | null>(null);
+
+  // Update input value when prop value changes
+  useEffect(() => {
+    setInputValue(value.toFixed(3));
+  }, [value]);
+
   const indicatorWithValue = Object.create(
     Object.getPrototypeOf(indicator),
     Object.getOwnPropertyDescriptors(indicator)
@@ -53,9 +59,31 @@ export default function IndicatorView({
 
   function setValueAndColor(newValue: number) {
     onValueChange(newValue);
-    // indicator.setCurrentValue is now handled in App
-    // setValue and setColorClass are not needed
   }
+
+  function handleInputChange(e: React.ChangeEvent<HTMLInputElement>) {
+    const newValue = e.target.value;
+    setInputValue(newValue);
+
+    if (debounceTimeoutRef.current) {
+      clearTimeout(debounceTimeoutRef.current);
+    }
+
+    debounceTimeoutRef.current = setTimeout(() => {
+      const numValue = Number(newValue);
+      if (!isNaN(numValue) && numValue >= 0 && numValue <= 1) {
+        setValueAndColor(numValue);
+      }
+    }, 1500);
+  }
+
+  useEffect(() => {
+    return () => {
+      if (debounceTimeoutRef.current) {
+        clearTimeout(debounceTimeoutRef.current);
+      }
+    };
+  }, []);
 
   return (
     <div
@@ -103,8 +131,8 @@ export default function IndicatorView({
             min={0}
             max={1}
             step={0.001}
-            value={value.toFixed(3)}
-            onChange={(e) => setValueAndColor(Number(e.target.value))}
+            value={inputValue}
+            onChange={handleInputChange}
           />
         </div>
       </div>

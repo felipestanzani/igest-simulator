@@ -42,7 +42,6 @@ export default function App() {
     setIndicatorValues((prev) => ({...prev, [indicatorId]: value}));
   }
 
-  // New: update indicators' values before calculating simulated IGEST
   const simulatedIgest = useMemo(() => {
     if (!selectedCourt) return null;
     selectedCourt.indicators.forEach((indicator) => {
